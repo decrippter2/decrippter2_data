@@ -1,3 +1,5 @@
+"""Command line interface of decrippter2_data to validate entries
+
 Creative Commons Legal Code
 
 CC0 1.0 Universal
@@ -119,3 +121,98 @@ express Statement of Purpose.
  d. Affirmer understands and acknowledges that Creative Commons is not a
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
+"""
+#
+# import argparse
+# import logging
+# import sys
+# from importlib import metadata
+#
+# import coloredlogs
+#
+#
+# def config_logger(verboseness: str) -> logging.Logger:
+#     """Set up a named logger with nice formatting
+#
+#     Args:
+#         verboseness: sets the logging verboseness
+#
+#     Returns:
+#         A Logger object
+#     """
+#     logger = logging.getLogger("decrippter2_data")
+#     logger.setLevel(getattr(logging, verboseness))
+#     console_handler = logging.StreamHandler(sys.stdout)
+#     console_handler.setFormatter(
+#         coloredlogs.ColoredFormatter(
+#             "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+#         )
+#     )
+#     logger.addHandler(console_handler)
+#     return logger
+#
+#
+# def setup_cli(args: list) -> argparse.Namespace:
+#     """Run command line interface using argparse.
+#
+#     Arguments:
+#         args: specified arguments
+#
+#     Returns:
+#         argparse.Namespace object with command line parameters
+#     """
+#     parser = argparse.ArgumentParser(
+#         description=(
+#             f"'decrippter2_data' CLI using decrippter2_data schema v{metadata.version('decrippter2_data')}."
+#         ),
+#         formatter_class=argparse.RawTextHelpFormatter,
+#     )
+#
+#     parser.add_argument(
+#         "-i",
+#         type=str,
+#         required=True,
+#         nargs="+",
+#         help="Specifies one or more input files for validation against schema (separated by whitespace).",
+#     )
+#
+#     parser.add_argument(
+#         "-v",
+#         type=str,
+#         default="WARNING",
+#         choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+#         required=False,
+#         help="Specifies the verboseness of logging (default: 'WARNING').",
+#     )
+#
+#     return parser.parse_args(args)
+#
+#
+# def main() -> None:
+#     """Function to execute main body of code
+#
+#     Returns:
+#         A bool indicating the outcome of the validation
+#     """
+#     args = setup_cli(sys.argv[1:])
+#     logger = config_logger(args.v)
+#
+#     logger.info(
+#         f"Validate file '{args.i}' with MITE schema v{metadata.version('mite_schema')}."
+#     )
+#
+#     for file in args.i:
+#         try:
+#             manager = SchemaManager()
+#             data = manager.read_json(infile=file)
+#             manager.validate_mite(instance=data)
+#         except Exception as e:
+#             logger.fatal(str(e))
+#             exit(1)
+#
+#     logger.info(f"Completed validation against MITE schema.")
+#     exit(0)
+#
+#
+# if __name__ == "__main__":
+#     main()

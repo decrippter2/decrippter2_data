@@ -1,68 +1,48 @@
-modern_python
-=========
+decrippter2_data
+=======
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12684030.svg)](https://doi.org/10.5281/zenodo.12684030)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12684157.svg)](https://doi.org/10.5281/zenodo.12684157)
+This repository contains data on RiPP precursor peptides used for the training of the decRiPPter2 software.
+The dataset summarizes knowledge about of experimentally validated (true-positive) RiPP precursor peptides, including their cleavage sites.
 
-This repository serves as inspiration/template for setting up your own modern python project.
-It uses [hatch](https://hatch.pypa.io/latest/) as a project manager.
-`hatch` sets up a virtual environment, installs the correct Python version, downloads and installs the dependencies, and runs the program.
-For a more comprehensive description, see below.
+The basis of this dataset was sourced from MIBiG (Minimum Information about a Biosynthetic Gene Cluster), cleaned, gap-filled, and structured using a JSON schema also available through this repository. 
 
-## Installation
+The aim of this dataset it to make data on RiPP precursor peptides freely available, FAIR, and sustainable.
+Please consider contributing RiPP precursor data as it becomes available!
 
-### For users
-
-- Install `python3`
-- Install `hatch` using one of the methods described [here](https://hatch.pypa.io/1.12/install/)
-- Download or clone this repository
-- Run `hatch -v env create`
-
-### For developers
-
-- Install `python3`
-- Install `hatch` using one of the methods described [here](https://hatch.pypa.io/1.12/install/)
-- Download or clone this repository
-- Run `hatch -v env create dev`. This will download and install the appropriate Python version and any required packages
-- Run `hatch run dev:pre-commit install`. This will set up `pre-commit`
-
-## Quick Start
-
-### For users
-
-- `hatch run modern_python`
-
-### For developers
-
-- `hatch run dev:modern_python`
-
-## Remove package
-
-### For users
-
-- `hatch env remove`
-
-### For developers
-
-- `hatch env remove dev`
+For more information, see the [DecRiPPter2 Organization page](https://github.com/decrippter2).
 
 ## Background
 
-Python3 is one of most popular languages in scientific programming.
-While its flexible syntax is great for beginners, this can become a issue for larger projects.
-Therefore, the community has started to adopt a number of best practices to make working on larger, multi-person projects more convenient.
-Some of these best practices have been incorporated in auxiliary programs (from here: 'plugins') that provide capabilities **linting**, **formatting**, **type hinting**, and **testing**.
+RiPPs (ribosomally synthesized and post-translationally modified peptides) are metabolites with strong biological activities. 
+Their biosynthesis involves a precursor peptide, which is modified by a number of tailoring enzymes, and eventually cleaved to yield the mature core peptide.
+RiPP classes are defined by the biosynthetic logic of their tailoring enzymes and are therefor rarely homologous.
+This makes rule-based discovery of new RiPP classes challenging and favours machine learning-based approaches.
 
-### What is included in this repo?
+## Data Model Content
 
-- A basic project directory structure with some placeholder Python files (`modern_python`, `tests`)
-- A set of standard files (in capital letters, e.g. LICENSE, CHANGELOG) for metadata about the repository
-- A `pyproject.toml` file that manages metadata, versioning, dependencies, environments, and plugins. This file is also used by `hatch` for setting up environments (`default`, `dev`), download and installation of dependencies.
-- A `.pre-commit-config.yaml` file that manages the plugins for linting (`ruff-check`), formatting (`ruff-format`), type hinting (`mypy`), and testing (`pytest`). If `pre-commit` is activated, this suite of programs is performed with each `git commmit`.
+TBA
 
-### Who is this repo not for?
+## For Contributors
 
-For Python projects not in version control (e.g. single-use scripts), such an advanced setup is likely not necessary. 
-However, once a project becomes more elaborate, it is often useful to give it at least a minimum of formalism.
-This repo can help to reduce the time to do so, since it only requires a minimum of adaption.
+### Data contributions
+
+Thank you for considering to contribute to this dataset! We are always welcoming experimental data on precursor peptides. Please consider the following conditions:
+
+- RiPP precursors must be experimentally validated (no predictions)
+- 
+
+For the technical aspects of contributing, see [CONTRIBUTING](CONTRIBUTING.md).
+
+#### Installation
+
+`decrippter2_data` has functionality to validate the data structure of its content against the provided JSON Schema.
+
+Data validation is automatically triggered upon a pull request via GitHub Actions. If you want to trigger it manually, please take the following steps.
+
+
+
+
+### Code contributions
+
+#### Installation
 
