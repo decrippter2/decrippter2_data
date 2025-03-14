@@ -265,10 +265,9 @@ def main(files: list | tuple | Generator = ()) -> None:
     exit(0)
 
 
-def entrypoint_cicd():
+def entrypoint_cicd(data_dir: Path):
     """Entrypoint for the GitHub CICD validation to test all entries"""
-    data = Path(__file__).parent.parent.parent.joinpath("data")
-    main(data.iterdir())
+    main(data_dir.iterdir())
 
 
 def entrypoint_script():
