@@ -250,14 +250,18 @@ def main(files: list | tuple | Generator = ()) -> None:
     """
     manager = SchemaManager()
 
+    failed_entries = []
+
     for file in files:
         try:
             manager.validate_schema(instance=file)
         except Exception as e:
             logger.fatal(str(e))
-            exit(1)
+            failed_entries.append(str(e))
 
-    logger.info(f"Completed validation against MITE schema.")
+    if len(failed_entries) != 0:
+        exit(1)
+
     exit(0)
 
 
