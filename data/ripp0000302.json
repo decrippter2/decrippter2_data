@@ -16,32 +16,14 @@
         "genpept": "QIC51115.1",
         "uniprot": "A0A1V0NWY2"
       },
-      "complete": "MKNQLNFEILSDEELQGINGGIRGTGKGLAAAMVSGAAMGGAIGAFGGPVGAIMGAWGGAVGGAMKYSI",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MKNQLNFEILSDEELQGINGGIRGTGKGLAAAMVSGAAMGGAIGAFGGPVGAIMGAWGGAVGGAMKYSI"
     },
     {
       "protein_ids": {
         "genpept": "QIC51116.1",
         "uniprot": "A0A1V0NWZ0"
       },
-      "complete": "MKKDEANTFKEYSSSFAIVTDEELENINGSGSIWGAIAGGAVKGAIAASWTGNPVGIGMSALGGAVLGGVTYARPVH",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MKKDEANTFKEYSSSFAIVTDEELENINGSGSIWGAIAGGAVKGAIAASWTGNPVGIGMSALGGAVLGGVTYARPVH"
     }
   ]
 }

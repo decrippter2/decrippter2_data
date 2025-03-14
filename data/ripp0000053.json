@@ -16,16 +16,7 @@
         "genpept": "BAM73616.1",
         "uniprot": "A7M6Q0"
       },
-      "complete": "MAGFLKVVQILAKYGSKAVQWAWANKGKILDWINAGQAIDWVVEKIKQILGIK",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MAGFLKVVQILAKYGSKAVQWAWANKGKILDWINAGQAIDWVVEKIKQILGIK"
     }
   ]
 }

@@ -16,16 +16,7 @@
         "genpept": "TLQ42318.1",
         "uniprot": "A0A5R9DXH7"
       },
-      "complete": "MTPKPELATLADEILELESETFEISDYSDAAEVVLAGSTSCSSTSTCSSTTSTTSCSA",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MTPKPELATLADEILELESETFEISDYSDAAEVVLAGSTSCSSTSTCSSTTSTTSCSA"
     }
   ]
 }

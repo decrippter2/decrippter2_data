@@ -17,32 +17,14 @@
         "genpept": "AHF21242.1",
         "uniprot": "W0FGJ7"
       },
-      "complete": "MSESNMKKVVGETFEDLSIAEMTKVQGSGDVMPESTPICAGFATLMSSIGLVKTIKGKC",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MSESNMKKVVGETFEDLSIAEMTKVQGSGDVMPESTPICAGFATLMSSIGLVKTIKGKC"
     },
     {
       "protein_ids": {
         "genpept": "AHF21238.1",
         "uniprot": "W0FC94"
       },
-      "complete": "MSELSMEKVVGETFEDLSIAEMTMVQGSGDINGEFTTSPACVYSVMVVSKASSAKCAAGASAVSGAILSAIRC",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MSELSMEKVVGETFEDLSIAEMTMVQGSGDINGEFTTSPACVYSVMVVSKASSAKCAAGASAVSGAILSAIRC"
     }
   ]
 }

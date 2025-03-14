@@ -15,16 +15,7 @@
       "protein_ids": {
         "genpept": "EGH61608.1"
       },
-      "complete": "MGQPNVQSVENQQASGDVKDLENTPQATEEALFEEFDLDDIEVIESKVFA",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MGQPNVQSVENQQASGDVKDLENTPQATEEALFEEFDLDDIEVIESKVFA"
     }
   ]
 }

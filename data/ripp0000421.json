@@ -14,16 +14,7 @@
       "protein_ids": {
         "genpept": "ADV71007.1"
       },
-      "complete": "MSVIEFKKLSSKLLKVSKIETLSGCGTKRTQQTKGWY",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MSVIEFKKLSSKLLKVSKIETLSGCGTKRTQQTKGWY"
     }
   ]
 }

@@ -15,16 +15,7 @@
       "protein_ids": {
         "genpept": "WP_030348588.1"
       },
-      "complete": "MPVAVPDLLKTDGFRDAGPLEIDDETIPFEDDDREDREHTACLSDPWVTATTRFACDLNS",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MPVAVPDLLKTDGFRDAGPLEIDDETIPFEDDDREDREHTACLSDPWVTATTRFACDLNS"
     }
   ]
 }

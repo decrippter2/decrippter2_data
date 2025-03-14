@@ -16,16 +16,7 @@
         "genpept": "EPC01633.1",
         "uniprot": "S2KMD3"
       },
-      "complete": "MNSITSISTIGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVSGTVGGTSAVGGLPLNDRLTK",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MNSITSISTIGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVSGTVGGTSAVGGLPLNDRLTK"
     }
   ]
 }

@@ -14,16 +14,7 @@
       "protein_ids": {
         "genpept": "WP_261291962.1"
       },
-      "complete": "MQIEFTSEELMQMKTIDELMSIVQDTPGEIVPAGPFITRRRY",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MQIEFTSEELMQMKTIDELMSIVQDTPGEIVPAGPFITRRRY"
     }
   ]
 }

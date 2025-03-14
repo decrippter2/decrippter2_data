@@ -16,16 +16,7 @@
         "genpept": "AAC19355.1",
         "uniprot": "O85355"
       },
-      "complete": "MNKELNALTNPIDEKELEQILGGGNGVIKTISHECHMNTWQFIFTCCS",
-      "leader": [
-        "TBA"
-      ],
-      "core": [
-        "TBA"
-      ],
-      "follower": [
-        "TBA"
-      ]
+      "complete": "MNKELNALTNPIDEKELEQILGGGNGVIKTISHECHMNTWQFIFTCCS"
     }
   ]
 }
