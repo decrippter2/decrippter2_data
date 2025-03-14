@@ -1,33 +1,33 @@
 {
-      "identifiers": {
-            "ncbi_acc": "DQ869558.1",
-            "mibig_acc": "BGC0000476"
+  "identifiers": {
+    "ncbi_acc": "DQ869558.1",
+    "mibig_acc": "BGC0000476"
+  },
+  "compound_name": [
+    "patellamide B",
+    "ulithiacyclamide"
+  ],
+  "ripp_class": "Cyanobactin",
+  "ref": [
+    "doi:10.1038/nchembio829"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ABI99461.1",
+        "uniprot": "A0MHA1"
       },
-      "compound_name": [
-            "patellamide B",
-            "ulithiacyclamide"
+      "complete": "MNKKNILPQQGQPVIRLTAGQLSSQLAELSEEALGDAGLEASLTACITFCAYDGVEPSCTLCCTLCAYDGE",
+      "leader": [
+        "MNKKNILPQQGQPVIRLTAGQLSSQLAELSEEALGDAGLEAS"
       ],
-      "ripp_class": "Cyanobactin",
-      "ref": [
-            "doi:10.1038/nchembio829"
+      "core": [
+        "LTACITFC",
+        "CTLCCTLC"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ABI99461.1",
-                        "uniprot": "A0MHA1"
-                  },
-                  "complete": "MNKKNILPQQGQPVIRLTAGQLSSQLAELSEEALGDAGLEASLTACITFCAYDGVEPSCTLCCTLCAYDGE",
-                  "leader": [
-                        "MNKKNILPQQGQPVIRLTAGQLSSQLAELSEEALGDAGLEAS"
-                  ],
-                  "core": [
-                        "LTACITFC",
-                        "CTLCCTLC"
-                  ],
-                  "follower": [
-                        "AYDGE"
-                  ]
-            }
+      "follower": [
+        "AYDGE"
       ]
+    }
+  ]
 }

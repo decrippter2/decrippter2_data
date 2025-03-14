@@ -1,64 +1,55 @@
 {
-      "identifiers": {
-            "ncbi_acc": "CP035727.2",
-            "mibig_acc": "BGC0002111"
+  "identifiers": {
+    "ncbi_acc": "CP035727.2",
+    "mibig_acc": "BGC0002111"
+  },
+  "compound_name": [
+    "andalusicin A",
+    "andalusicin B"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1016/j.isci.2021.102480"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "QQY95970.1",
+        "uniprot": "A0A7U1BAR4"
       },
-      "compound_name": [
-            "andalusicin A",
-            "andalusicin B"
+      "complete": "MNTVLELQKLAHDTEGKGQAAEATITTTWTVTTTGVWASTISNNC",
+      "leader": [
+        "MNTVLELQKLAHDTEGKGQAAE"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1016/j.isci.2021.102480"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "QQY95970.1",
-                        "uniprot": "A0A7U1BAR4"
-                  },
-                  "complete": "MNTVLELQKLAHDTEGKGQAAEATITTTWTVTTTGVWASTISNNC",
-                  "leader": [
-                        "MNTVLELQKLAHDTEGKGQAAE"
-                  ],
-                  "core": [
-                        "ATITTTWTVTTTGVWASTISNNC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "QQY95972.1",
-                        "uniprot": "A0A7U1BAS1"
-                  },
-                  "complete": "MNTVLELQKLVHDTEGKGQAAEATITTTWTVTTTGVWASTISNNC",
-                  "leader": [
-                        "MNTVLELQKLVHDTEGKGQAAE"
-                  ],
-                  "core": [
-                        "ATITTTWTVTTTGVWASTISNNC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "QQY95976.1",
-                        "uniprot": "A0A7U1BB42"
-                  },
-                  "complete": "MNTVLELQKLAHDTEGKGQAAEATITTTWTVTTTGAWASTISNNC",
-                  "leader": [
-                        "MNTVLELQKLAHDTEGKGQAAE"
-                  ],
-                  "core": [
-                        "ATITTTWTVTTTGAWASTISNNC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "ATITTTWTVTTTGVWASTISNNC"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "QQY95972.1",
+        "uniprot": "A0A7U1BAS1"
+      },
+      "complete": "MNTVLELQKLVHDTEGKGQAAEATITTTWTVTTTGVWASTISNNC",
+      "leader": [
+        "MNTVLELQKLVHDTEGKGQAAE"
+      ],
+      "core": [
+        "ATITTTWTVTTTGVWASTISNNC"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "QQY95976.1",
+        "uniprot": "A0A7U1BB42"
+      },
+      "complete": "MNTVLELQKLAHDTEGKGQAAEATITTTWTVTTTGAWASTISNNC",
+      "leader": [
+        "MNTVLELQKLAHDTEGKGQAAE"
+      ],
+      "core": [
+        "ATITTTWTVTTTGAWASTISNNC"
+      ]
+    }
+  ]
 }

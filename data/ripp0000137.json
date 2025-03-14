@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "KM613043.1",
-            "mibig_acc": "BGC0000607"
+  "identifiers": {
+    "ncbi_acc": "KM613043.1",
+    "mibig_acc": "BGC0000607"
+  },
+  "compound_name": [
+    "micrococcin P1"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1128/jb.00396-16"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AIU53942.1",
+        "uniprot": "A0A097PT98"
       },
-      "compound_name": [
-            "micrococcin P1"
+      "complete": "MSEFQTNNIEGLDVTDLEFISEEVTEKDEKEIMGASCTTCVCTCSCCTT",
+      "leader": [
+        "MSEFQTNNIEGLDVTDLEFISEEVTEKDEKEIMGA"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1128/jb.00396-16"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AIU53942.1",
-                        "uniprot": "A0A097PT98"
-                  },
-                  "complete": "MSEFQTNNIEGLDVTDLEFISEEVTEKDEKEIMGASCTTCVCTCSCCTT",
-                  "leader": [
-                        "MSEFQTNNIEGLDVTDLEFISEEVTEKDEKEIMGA"
-                  ],
-                  "core": [
-                        "SCTTCVCTCSCCTT"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "SCTTCVCTCSCCTT"
       ]
+    }
+  ]
 }

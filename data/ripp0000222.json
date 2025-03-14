@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "LC310987.1",
-            "mibig_acc": "BGC0001696"
+  "identifiers": {
+    "ncbi_acc": "LC310987.1",
+    "mibig_acc": "BGC0001696"
+  },
+  "compound_name": [
+    "neothioviridamide"
+  ],
+  "ripp_class": "Thioamitide",
+  "ref": [
+    "doi:10.1021/acs.jnatprod.7b00607"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BBC15198.1",
+        "uniprot": "A0A2Z5WLK8"
       },
-      "compound_name": [
-            "neothioviridamide"
+      "complete": "MSEAMVSAVDEAAFADLVSKIQDAEASMTDEQRAVIDPAAGEKALEELAGVSPEELQAFLEEKAGISPDEEAQGSVMAAAATVAFHC",
+      "leader": [
+        "MSEAMVSAVDEAAFADLVSKIQDAEASMTDEQRAVIDPAAGEKALEELAGVSPEELQAFLEEKAGISPDEEAQGS"
       ],
-      "ripp_class": "Thioamitide",
-      "ref": [
-            "doi:10.1021/acs.jnatprod.7b00607"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "BBC15198.1",
-                        "uniprot": "A0A2Z5WLK8"
-                  },
-                  "complete": "MSEAMVSAVDEAAFADLVSKIQDAEASMTDEQRAVIDPAAGEKALEELAGVSPEELQAFLEEKAGISPDEEAQGSVMAAAATVAFHC",
-                  "leader": [
-                        "MSEAMVSAVDEAAFADLVSKIQDAEASMTDEQRAVIDPAAGEKALEELAGVSPEELQAFLEEKAGISPDEEAQGS"
-                  ],
-                  "core": [
-                        "VMAAAATVAFHC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "VMAAAATVAFHC"
       ]
+    }
+  ]
 }

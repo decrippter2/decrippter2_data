@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "KY115609.1",
-            "mibig_acc": "BGC0001577"
+  "identifiers": {
+    "ncbi_acc": "KY115609.1",
+    "mibig_acc": "BGC0001577"
+  },
+  "compound_name": [
+    "divamide B"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1038/nchembio.2537"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ARD09202.1",
+        "uniprot": "A0A2H4GZ80"
       },
-      "compound_name": [
-            "divamide B"
+      "complete": "MPTTLEKPSVAYLEKLFHQTAIDSEFRSELQSHPEAFGISADLELPQSVEKQDESFVELLNNALGEIDIAAECASTCSFGIVTIVCDGTTK",
+      "leader": [
+        "MPTTLEKPSVAYLEKLFHQTAIDSEFRSELQSHPEAFGISADLELPQSVEKQDESFVELLNNALGEIDIAA"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1038/nchembio.2537"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ARD09202.1",
-                        "uniprot": "A0A2H4GZ80"
-                  },
-                  "complete": "MPTTLEKPSVAYLEKLFHQTAIDSEFRSELQSHPEAFGISADLELPQSVEKQDESFVELLNNALGEIDIAAECASTCSFGIVTIVCDGTTK",
-                  "leader": [
-                        "MPTTLEKPSVAYLEKLFHQTAIDSEFRSELQSHPEAFGISADLELPQSVEKQDESFVELLNNALGEIDIAA"
-                  ],
-                  "core": [
-                        "ECASTCSFGIVTIVCDGTTK"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "ECASTCSFGIVTIVCDGTTK"
       ]
+    }
+  ]
 }

@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "KF765778",
-            "mibig_acc": "BGC0003002"
+  "identifiers": {
+    "ncbi_acc": "KF765778",
+    "mibig_acc": "BGC0003002"
+  },
+  "compound_name": [
+    "NAI-112"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1039/D0OB01215G"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AHB63594.1",
+        "uniprot": "V9PX22"
       },
-      "compound_name": [
-            "NAI-112"
+      "complete": "MQEILELQELPSASATEDMPLVSTLSVSSPCPGWPSSFTWSNC",
+      "leader": [
+        "MQEILELQELPSASATEDMPL"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1039/D0OB01215G"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AHB63594.1",
-                        "uniprot": "V9PX22"
-                  },
-                  "complete": "MQEILELQELPSASATEDMPLVSTLSVSSPCPGWPSSFTWSNC",
-                  "leader": [
-                        "MQEILELQELPSASATEDMPL"
-                  ],
-                  "core": [
-                        "VSTLSVSSPCPGWPSSFTWSNC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "VSTLSVSSPCPGWPSSFTWSNC"
       ]
+    }
+  ]
 }

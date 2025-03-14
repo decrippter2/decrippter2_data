@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "HM236314.1",
-            "mibig_acc": "BGC0000608"
+  "identifiers": {
+    "ncbi_acc": "HM236314.1",
+    "mibig_acc": "BGC0000608"
+  },
+  "compound_name": [
+    "nocathiacin I"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1007/s10529-010-0460-0"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ADH93699.1",
+        "uniprot": "D7SA58"
       },
-      "compound_name": [
-            "nocathiacin I"
+      "complete": "MSADLSALNIDSLEISEFLDDSRLEDSEVVAKVMSASCTTCECSCSCSS",
+      "leader": [
+        "MSADLSALNIDSLEISEFLDDSRLEDSEVVAKVMSA"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1007/s10529-010-0460-0"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ADH93699.1",
-                        "uniprot": "D7SA58"
-                  },
-                  "complete": "MSADLSALNIDSLEISEFLDDSRLEDSEVVAKVMSASCTTCECSCSCSS",
-                  "leader": [
-                        "MSADLSALNIDSLEISEFLDDSRLEDSEVVAKVMSA"
-                  ],
-                  "core": [
-                        "SCTTCECSCSCSS"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "SCTTCECSCSCSS"
       ]
+    }
+  ]
 }

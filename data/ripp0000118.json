@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AY237108.2",
-            "mibig_acc": "BGC0000588"
+  "identifiers": {
+    "ncbi_acc": "AY237108.2",
+    "mibig_acc": "BGC0000588"
+  },
+  "compound_name": [
+    "microcin L"
+  ],
+  "ripp_class": "Microcin",
+  "ref": [
+    "doi:10.1128/aac.48.2.505-513.2004"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AAP03989.1",
+        "uniprot": "Q841V4"
       },
-      "compound_name": [
-            "microcin L"
+      "complete": "MREITLNEMNNVSGAGDVNWVDVGKTVATNGAGVIGGAFGAGLCGPVCAGAFAVGSSAAVAALYDAAGNSNSAKQKPEGLPPEAWNYAEGRMCNWSPNNLSDVCL",
+      "leader": [
+        "MREITLNEMNNVSGA"
       ],
-      "ripp_class": "Microcin",
-      "ref": [
-            "doi:10.1128/aac.48.2.505-513.2004"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AAP03989.1",
-                        "uniprot": "Q841V4"
-                  },
-                  "complete": "MREITLNEMNNVSGAGDVNWVDVGKTVATNGAGVIGGAFGAGLCGPVCAGAFAVGSSAAVAALYDAAGNSNSAKQKPEGLPPEAWNYAEGRMCNWSPNNLSDVCL",
-                  "leader": [
-                        "MREITLNEMNNVSGA"
-                  ],
-                  "core": [
-                        "GDVNWVDVGKTVATNGAGVIGGAFGAGLCGPVCAGAFAVGSSAAVAALYDAAGNSNSAKQKPEGLPPEAWNYAEGRMCNWSPNNLSDVCL"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GDVNWVDVGKTVATNGAGVIGGAFGAGLCGPVCAGAFAVGSSAAVAALYDAAGNSNSAKQKPEGLPPEAWNYAEGRMCNWSPNNLSDVCL"
       ]
+    }
+  ]
 }

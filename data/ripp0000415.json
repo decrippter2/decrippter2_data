@@ -1,82 +1,66 @@
 {
-      "identifiers": {
-            "ncbi_acc": "OR544323",
-            "mibig_acc": "BGC0003136"
+  "identifiers": {
+    "ncbi_acc": "OR544323",
+    "mibig_acc": "BGC0003136"
+  },
+  "compound_name": [
+    "myxopeptin B",
+    "myxopeptin C",
+    "myxopeptin D",
+    "myxopeptin E"
+  ],
+  "ripp_class": "other",
+  "ref": [
+    "doi:10.1021/acschembio.3c00265"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WNE31501.1"
       },
-      "compound_name": [
-            "myxopeptin B",
-            "myxopeptin C",
-            "myxopeptin D",
-            "myxopeptin E"
+      "complete": "MCSQLAIGIIKMNVQPPKKLFLKKDTLRQIDSAQLDGAVGGTTPVTIIPFTIGYTIGRTLIEAGDK",
+      "leader": [
+        "MCSQLAIGIIKMNVQPPKKLFLKKDTLRQIDSAQLDGAVGG"
       ],
-      "ripp_class": "other",
-      "ref": [
-            "doi:10.1021/acschembio.3c00265"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "WNE31501.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MCSQLAIGIIKMNVQPPKKLFLKKDTLRQIDSAQLDGAVGGTTPVTIIPFTIGYTIGRTLIEAGDK",
-                  "leader": [
-                        "MCSQLAIGIIKMNVQPPKKLFLKKDTLRQIDSAQLDGAVGG"
-                  ],
-                  "core": [
-                        "TTPVTIIPFTIGYTIGRTLIEAGDK"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "WNE31502.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MNVQSSKKLSLKKETLRQIDSSQLAELDGAVGGSTPLCVGVIIGLTITIMAND",
-                  "leader": [
-                        "MNVQSSKKLSLKKETLRQIDSSQLAELDGAVGG"
-                  ],
-                  "core": [
-                        "STPLCVGVIIGLTITIMAND"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "WNE31500.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MNTSSSKKPVLKKETLRTLVVAELPQLDGAVGGNTPALGGGVIGIATLTVQPTVSPRTRTL",
-                  "leader": [
-                        "MNTSSSKKPVLKKETLRTLVVAELPQLDGAVGG"
-                  ],
-                  "core": [
-                        "NTPALGGGVIGIATLTVQPTVSPRTRTL"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "WNE31503.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MSAQAAKKPLLKKETLRQLDTAQMSQLDGAVGGTTPAVTVTVPLTILTKEIIEEML",
-                  "leader": [
-                        "MSAQAAKKPLLKKETLRQLDTAQMSQLDGAVGG"
-                  ],
-                  "core": [
-                        "TTPAVTVTVPLTILTKEIIEEML"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "TTPVTIIPFTIGYTIGRTLIEAGDK"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WNE31502.1"
+      },
+      "complete": "MNVQSSKKLSLKKETLRQIDSSQLAELDGAVGGSTPLCVGVIIGLTITIMAND",
+      "leader": [
+        "MNVQSSKKLSLKKETLRQIDSSQLAELDGAVGG"
+      ],
+      "core": [
+        "STPLCVGVIIGLTITIMAND"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WNE31500.1"
+      },
+      "complete": "MNTSSSKKPVLKKETLRTLVVAELPQLDGAVGGNTPALGGGVIGIATLTVQPTVSPRTRTL",
+      "leader": [
+        "MNTSSSKKPVLKKETLRTLVVAELPQLDGAVGG"
+      ],
+      "core": [
+        "NTPALGGGVIGIATLTVQPTVSPRTRTL"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WNE31503.1"
+      },
+      "complete": "MSAQAAKKPLLKKETLRQLDTAQMSQLDGAVGGTTPAVTVTVPLTILTKEIIEEML",
+      "leader": [
+        "MSAQAAKKPLLKKETLRQLDTAQMSQLDGAVGG"
+      ],
+      "core": [
+        "TTPAVTVTVPLTILTKEIIEEML"
+      ]
+    }
+  ]
 }

@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AE016877.1",
-            "mibig_acc": "BGC0000612"
+  "identifiers": {
+    "ncbi_acc": "AE016877.1",
+    "mibig_acc": "BGC0000612"
+  },
+  "compound_name": [
+    "thiocillin I"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1073/pnas.0900008106"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AAP11956.1",
+        "uniprot": "Q812G9"
       },
-      "compound_name": [
-            "thiocillin I"
+      "complete": "MSEIKKALNTLEIEDFDAIEMVDVDAMPENEALEIMGASCTTCVCTCSCCTT",
+      "leader": [
+        "MSEIKKALNTLEIEDFDAIEMVDVDAMPENEALEIMGA"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1073/pnas.0900008106"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AAP11956.1",
-                        "uniprot": "Q812G9"
-                  },
-                  "complete": "MSEIKKALNTLEIEDFDAIEMVDVDAMPENEALEIMGASCTTCVCTCSCCTT",
-                  "leader": [
-                        "MSEIKKALNTLEIEDFDAIEMVDVDAMPENEALEIMGA"
-                  ],
-                  "core": [
-                        "SCTTCVCTCSCCTT"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "SCTTCVCTCSCCTT"
       ]
+    }
+  ]
 }

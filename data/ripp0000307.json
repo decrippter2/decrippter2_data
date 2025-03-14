@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "CACA01000374.1",
-            "mibig_acc": "BGC0002627"
+  "identifiers": {
+    "ncbi_acc": "CACA01000374.1",
+    "mibig_acc": "BGC0002627"
+  },
+  "compound_name": [
+    "kamptornamide"
+  ],
+  "ripp_class": "Selidamide",
+  "ref": [
+    "doi:10.1073/pnas.2113120119"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "CBN59342.1",
+        "uniprot": "D8G9Q2"
       },
-      "compound_name": [
-            "kamptornamide"
+      "complete": "MTSSTSQPEPMTREELQAKLIAKAWQDESFKQELLSNPTAVIAKEMGVDNIPGITIQIVEETPTTYYLVLPSKPTDDTEELSDAELEAIAGGRRRGGSSRVITNTPGVPGCN",
+      "leader": [
+        "MTSSTSQPEPMTREELQAKLIAKAWQDESFKQELLSNPTAVIAKEMGVDNIPGITIQIVEETPTTYYLVLPSKPTDDTEELSDAELEAIAGG"
       ],
-      "ripp_class": "Selidamide",
-      "ref": [
-            "doi:10.1073/pnas.2113120119"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "CBN59342.1",
-                        "uniprot": "D8G9Q2"
-                  },
-                  "complete": "MTSSTSQPEPMTREELQAKLIAKAWQDESFKQELLSNPTAVIAKEMGVDNIPGITIQIVEETPTTYYLVLPSKPTDDTEELSDAELEAIAGGRRRGGSSRVITNTPGVPGCN",
-                  "leader": [
-                        "MTSSTSQPEPMTREELQAKLIAKAWQDESFKQELLSNPTAVIAKEMGVDNIPGITIQIVEETPTTYYLVLPSKPTDDTEELSDAELEAIAGG"
-                  ],
-                  "core": [
-                        "RRRGGSSRVITNTPGVPGCN"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "RRRGGSSRVITNTPGVPGCN"
       ]
+    }
+  ]
 }

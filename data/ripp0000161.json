@@ -1,49 +1,42 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AB896796.1",
-            "mibig_acc": "BGC0001148"
+  "identifiers": {
+    "ncbi_acc": "AB896796.1",
+    "mibig_acc": "BGC0001148"
+  },
+  "compound_name": [
+    "pheganomycin"
+  ],
+  "ripp_class": "Guanidinotide",
+  "ref": [
+    "doi:10.1038/nchembio.1697"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BAP82648.1",
+        "uniprot": "A0A0A1GQM2"
       },
-      "compound_name": [
-            "pheganomycin"
+      "complete": "MEREIVWTEIEESDLAAVVSASNVKDGPTVSSSNVKDR",
+      "leader": [
+        "MEREIVWTEIEESDLAAVVSAS"
       ],
-      "ripp_class": "Guanidinotide",
-      "ref": [
-            "doi:10.1038/nchembio.1697"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "BAP82648.1",
-                        "uniprot": "A0A0A1GQM2"
-                  },
-                  "complete": "MEREIVWTEIEESDLAAVVSASNVKDGPTVSSSNVKDR",
-                  "leader": [
-                        "MEREIVWTEIEESDLAAVVSAS"
-                  ],
-                  "core": [
-                        "NVKDGPT",
-                        "NVKDR"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "BAP82648.1_2",
-                        "uniprot": ""
-                  },
-                  "complete": "MEREIVWTEIEESDLAAVVSASNVKDGPTVSSSNVKDR",
-                  "leader": [
-                        "MEREIVWTEIEESDLAAVVSAS"
-                  ],
-                  "core": [
-                        "NVKDGPT",
-                        "NVKDR"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "NVKDGPT",
+        "NVKDR"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "BAP82648.1_2"
+      },
+      "complete": "MEREIVWTEIEESDLAAVVSASNVKDGPTVSSSNVKDR",
+      "leader": [
+        "MEREIVWTEIEESDLAAVVSAS"
+      ],
+      "core": [
+        "NVKDGPT",
+        "NVKDR"
+      ]
+    }
+  ]
 }

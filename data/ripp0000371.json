@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AWGB01000012.1",
-            "mibig_acc": "BGC0003019"
+  "identifiers": {
+    "ncbi_acc": "AWGB01000012.1",
+    "mibig_acc": "BGC0003019"
+  },
+  "compound_name": [
+    "Benenodin-1"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1021/jacs.7b04830"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ESQ92588.1",
+        "uniprot": "V4RMX4"
       },
-      "compound_name": [
-            "Benenodin-1"
+      "complete": "MEKIETHEDLIDLGAASSETKGVGFGRPDSILTQEQAKPMGLDRD",
+      "leader": [
+        "MEKIETHEDLIDLGAASSETK"
       ],
-      "ripp_class": "Lasso",
-      "ref": [
-            "doi:10.1021/jacs.7b04830"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ESQ92588.1",
-                        "uniprot": "V4RMX4"
-                  },
-                  "complete": "MEKIETHEDLIDLGAASSETKGVGFGRPDSILTQEQAKPMGLDRD",
-                  "leader": [
-                        "MEKIETHEDLIDLGAASSETK"
-                  ],
-                  "core": [
-                        "GVGFGRPDSILTQEQAKPMGLDRD"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GVGFGRPDSILTQEQAKPMGLDRD"
       ]
+    }
+  ]
 }

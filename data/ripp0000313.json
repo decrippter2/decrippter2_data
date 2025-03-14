@@ -1,31 +1,31 @@
 {
-      "identifiers": {
-            "ncbi_acc": "KE332391.1",
-            "mibig_acc": "BGC0002659"
+  "identifiers": {
+    "ncbi_acc": "KE332391.1",
+    "mibig_acc": "BGC0002659"
+  },
+  "compound_name": [
+    "TvgA-RiPP"
+  ],
+  "ripp_class": "TBA",
+  "ref": [
+    "doi:10.1016/j.jbc.2022.101881"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EPC01633.1",
+        "uniprot": "S2KMD3"
       },
-      "compound_name": [
-            "TvgA-RiPP"
+      "complete": "MNSITSISTIGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVSGTVGGTSAVGGLPLNDRLTK",
+      "leader": [
+        "TBA"
       ],
-      "ripp_class": "TBA",
-      "ref": [
-            "doi:10.1016/j.jbc.2022.101881"
+      "core": [
+        "TBA"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "EPC01633.1",
-                        "uniprot": "S2KMD3"
-                  },
-                  "complete": "MNSITSISTIGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVGGTVSGTVGGTSAVGGLPLNDRLTK",
-                  "leader": [
-                        "TBA"
-                  ],
-                  "core": [
-                        "TBA"
-                  ],
-                  "follower": [
-                        "TBA"
-                  ]
-            }
+      "follower": [
+        "TBA"
       ]
+    }
+  ]
 }

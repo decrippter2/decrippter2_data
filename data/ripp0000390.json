@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "EGF94505.1",
-            "mibig_acc": "BGC0003068"
+  "identifiers": {
+    "ncbi_acc": "EGF94505.1",
+    "mibig_acc": "BGC0003068"
+  },
+  "compound_name": [
+    "brevunsin"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1007/s10295-018-2077-6"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EGF94505.1"
       },
-      "compound_name": [
-            "brevunsin"
+      "complete": "MMNTFKLRLVSFGSAKALTRDGMGEEFIEGLVRDSLYPPAG",
+      "leader": [
+        "MMNTFKLRLVSFGSAKALTR"
       ],
-      "ripp_class": "Lasso",
-      "ref": [
-            "doi:10.1007/s10295-018-2077-6"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "EGF94505.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MMNTFKLRLVSFGSAKALTRDGMGEEFIEGLVRDSLYPPAG",
-                  "leader": [
-                        "MMNTFKLRLVSFGSAKALTR"
-                  ],
-                  "core": [
-                        "DGMGEEFIEGLVRDSLYPPAG"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "DGMGEEFIEGLVRDSLYPPAG"
       ]
+    }
+  ]
 }

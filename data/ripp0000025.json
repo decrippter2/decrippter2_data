@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AB649282.1",
-            "mibig_acc": "BGC0000493"
+  "identifiers": {
+    "ncbi_acc": "AB649282.1",
+    "mibig_acc": "BGC0000493"
+  },
+  "compound_name": [
+    "leucocyclicin Q"
+  ],
+  "ripp_class": "Head-to-tail cyclized peptide",
+  "ref": [
+    "doi:10.1271/bbb.130014"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BAL14584.1",
+        "uniprot": "G5ELQ0"
       },
-      "compound_name": [
-            "leucocyclicin Q"
+      "complete": "MFLVNQLGISKSLANTILGAIAVGNLASWLLALVPGPGWATKAALATAETIVKHEGKAAAIAW",
+      "leader": [
+        "MF"
       ],
-      "ripp_class": "Head-to-tail cyclized peptide",
-      "ref": [
-            "doi:10.1271/bbb.130014"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "BAL14584.1",
-                        "uniprot": "G5ELQ0"
-                  },
-                  "complete": "MFLVNQLGISKSLANTILGAIAVGNLASWLLALVPGPGWATKAALATAETIVKHEGKAAAIAW",
-                  "leader": [
-                        "MF"
-                  ],
-                  "core": [
-                        "LVNQLGISKSLANTILGAIAVGNLASWLLALVPGPGWATKAALATAETIVKHEGKAAAIAW"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "LVNQLGISKSLANTILGAIAVGNLASWLLALVPGPGWATKAALATAETIVKHEGKAAAIAW"
       ]
+    }
+  ]
 }

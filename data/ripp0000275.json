@@ -1,65 +1,56 @@
 {
-      "identifiers": {
-            "ncbi_acc": "CP011340.1",
-            "mibig_acc": "BGC0002303"
+  "identifiers": {
+    "ncbi_acc": "CP011340.1",
+    "mibig_acc": "BGC0002303"
+  },
+  "compound_name": [
+    "unnamed compound",
+    "unnamed compound",
+    "pristinin A3"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1371/journal.pbio.3001026"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ALC22072.1",
+        "uniprot": "A0A0M4DGL8"
       },
-      "compound_name": [
-            "unnamed compound",
-            "unnamed compound",
-            "pristinin A3"
+      "complete": "MADLQQTGSISELVAGYDTYSEAGELVAEAAADAPASTPTCAAATISWLGSQLTVKTYKEGC",
+      "leader": [
+        "MADLQQTGSISELVAGYDTYSEAGELVAEAAADAPA"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1371/journal.pbio.3001026"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ALC22072.1",
-                        "uniprot": "A0A0M4DGL8"
-                  },
-                  "complete": "MADLQQTGSISELVAGYDTYSEAGELVAEAAADAPASTPTCAAATISWLGSQLTVKTYKEGC",
-                  "leader": [
-                        "MADLQQTGSISELVAGYDTYSEAGELVAEAAADAPA"
-                  ],
-                  "core": [
-                        "STPTCAAATISWLGSQLTVKTYKEGC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "ALC22073.1",
-                        "uniprot": "A0A0M3QIX9"
-                  },
-                  "complete": "MDKTGAITELIEGYDSYSDAEELNSTAAAEAPATSAPCGAASVSWLASQFTVKTYKEGC",
-                  "leader": [
-                        "MDKTGAITELIEGYDSYSDAEELNSTAAAEAPA"
-                  ],
-                  "core": [
-                        "TSAPCGAASVSWLASQFTVKTYKEGC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "ALC22074.1",
-                        "uniprot": "A0A0M5IR36"
-                  },
-                  "complete": "MQNNTEIMDLIANYDAYADVDELNVTAAADAPATTPVCAASVASSTWCASAASAISGATYEAGC",
-                  "leader": [
-                        "MQNNTEIMDLIANYDAYADVDELNVTAAADAPA"
-                  ],
-                  "core": [
-                        "TTPVCAASVASSTWCASAASAISGATYEAGC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "STPTCAAATISWLGSQLTVKTYKEGC"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "ALC22073.1",
+        "uniprot": "A0A0M3QIX9"
+      },
+      "complete": "MDKTGAITELIEGYDSYSDAEELNSTAAAEAPATSAPCGAASVSWLASQFTVKTYKEGC",
+      "leader": [
+        "MDKTGAITELIEGYDSYSDAEELNSTAAAEAPA"
+      ],
+      "core": [
+        "TSAPCGAASVSWLASQFTVKTYKEGC"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "ALC22074.1",
+        "uniprot": "A0A0M5IR36"
+      },
+      "complete": "MQNNTEIMDLIANYDAYADVDELNVTAAADAPATTPVCAASVASSTWCASAASAISGATYEAGC",
+      "leader": [
+        "MQNNTEIMDLIANYDAYADVDELNVTAAADAPA"
+      ],
+      "core": [
+        "TTPVCAASVASSTWCASAASAISGATYEAGC"
+      ]
+    }
+  ]
 }

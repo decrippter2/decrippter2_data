@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "CP003583.1",
-            "mibig_acc": "BGC0000618"
+  "identifiers": {
+    "ncbi_acc": "CP003583.1",
+    "mibig_acc": "BGC0000618"
+  },
+  "compound_name": [
+    "enterocin A"
+  ],
+  "ripp_class": "TBA",
+  "ref": [
+    "doi:10.1128/aem.62.5.1676-1682.1996"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AFK59992.1",
+        "uniprot": "I3U4Q4"
       },
-      "compound_name": [
-            "enterocin A"
+      "complete": "MKHLKILSIKETQLIYGGTTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC",
+      "leader": [
+        "MKHLKILSIKETQLIYGG"
       ],
-      "ripp_class": "TBA",
-      "ref": [
-            "doi:10.1128/aem.62.5.1676-1682.1996"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AFK59992.1",
-                        "uniprot": "I3U4Q4"
-                  },
-                  "complete": "MKHLKILSIKETQLIYGGTTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC",
-                  "leader": [
-                        "MKHLKILSIKETQLIYGG"
-                  ],
-                  "core": [
-                        "TTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "TTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC"
       ]
+    }
+  ]
 }

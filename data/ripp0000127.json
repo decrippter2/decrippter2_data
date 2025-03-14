@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "NZ_GG753626.1",
-            "mibig_acc": "BGC0000597"
+  "identifiers": {
+    "ncbi_acc": "NZ_GG753626.1",
+    "mibig_acc": "BGC0000597"
+  },
+  "compound_name": [
+    "SWA-2138"
+  ],
+  "ripp_class": "Proteusin",
+  "ref": [
+    "doi:10.1038/nchembio.684"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "POX53806.1",
+        "uniprot": "A0A2S4YY04"
       },
-      "compound_name": [
-            "SWA-2138"
+      "complete": "MQTVVARMSHMFTARRSTIMNLITDVLAGLVHFIGWLV",
+      "leader": [
+        "MQTVVARMSHMFTARRSTI"
       ],
-      "ripp_class": "Proteusin",
-      "ref": [
-            "doi:10.1038/nchembio.684"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "POX53806.1",
-                        "uniprot": "A0A2S4YY04"
-                  },
-                  "complete": "MQTVVARMSHMFTARRSTIMNLITDVLAGLVHFIGWLV",
-                  "leader": [
-                        "MQTVVARMSHMFTARRSTI"
-                  ],
-                  "core": [
-                        "MNLITDVLAGLVHFIGWLV"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "MNLITDVLAGLVHFIGWLV"
       ]
+    }
+  ]
 }

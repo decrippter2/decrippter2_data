@@ -1,31 +1,31 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AE014133.2",
-            "mibig_acc": "BGC0002583"
+  "identifiers": {
+    "ncbi_acc": "AE014133.2",
+    "mibig_acc": "BGC0002583"
+  },
+  "compound_name": [
+    "tryglysin B"
+  ],
+  "ripp_class": "TBA",
+  "ref": [
+    "doi:10.1128/mBio.02688-20"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AAN59156.1",
+        "uniprot": "Q8DT72"
       },
-      "compound_name": [
-            "tryglysin B"
+      "complete": "MLTKKEFSVPKTTKVNCWGKH",
+      "leader": [
+        "MLTKKEFSVPKTTKVNC"
       ],
-      "ripp_class": "TBA",
-      "ref": [
-            "doi:10.1128/mBio.02688-20"
+      "core": [
+        "WGK"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AAN59156.1",
-                        "uniprot": "Q8DT72"
-                  },
-                  "complete": "MLTKKEFSVPKTTKVNCWGKH",
-                  "leader": [
-                        "MLTKKEFSVPKTTKVNC"
-                  ],
-                  "core": [
-                        "WGK"
-                  ],
-                  "follower": [
-                        "H"
-                  ]
-            }
+      "follower": [
+        "H"
       ]
+    }
+  ]
 }

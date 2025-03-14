@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "JQ728481.1",
-            "mibig_acc": "BGC0000540"
+  "identifiers": {
+    "ncbi_acc": "JQ728481.1",
+    "mibig_acc": "BGC0000540"
+  },
+  "compound_name": [
+    "paenibacillin"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1016/j.micres.2015.08.001"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AFS60100.1",
+        "uniprot": "P86013"
       },
-      "compound_name": [
-            "paenibacillin"
+      "complete": "MKVDQMFDLDLRKSYEASELSPQASIIKTTIKVSKAVCKTLTCICTGSCSNCK",
+      "leader": [
+        "MKVDQMFDLDLRKSYEASELSPQ"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1016/j.micres.2015.08.001"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AFS60100.1",
-                        "uniprot": "P86013"
-                  },
-                  "complete": "MKVDQMFDLDLRKSYEASELSPQASIIKTTIKVSKAVCKTLTCICTGSCSNCK",
-                  "leader": [
-                        "MKVDQMFDLDLRKSYEASELSPQ"
-                  ],
-                  "core": [
-                        "ASIIKTTIKVSKAVCKTLTCICTGSCSNCK"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "ASIIKTTIKVSKAVCKTLTCICTGSCSNCK"
       ]
+    }
+  ]
 }

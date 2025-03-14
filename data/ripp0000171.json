@@ -1,31 +1,30 @@
 {
-      "identifiers": {
-            "ncbi_acc": "CP000419.1",
-            "mibig_acc": "BGC0001209"
+  "identifiers": {
+    "ncbi_acc": "CP000419.1",
+    "mibig_acc": "BGC0001209"
+  },
+  "compound_name": [
+    "streptide"
+  ],
+  "ripp_class": "Streptide",
+  "ref": [
+    "doi:10.1016/bs.mie.2018.04.016"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ABJ66530.1"
       },
-      "compound_name": [
-            "streptide"
+      "complete": "MSKELEKVLESSSMAKGDGWKVMAKGDGWE",
+      "leader": [
+        "MSKELEKVLESSSM"
       ],
-      "ripp_class": "Streptide",
-      "ref": [
-            "doi:10.1016/bs.mie.2018.04.016"
+      "core": [
+        "AKGDGWKVM"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ABJ66530.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MSKELEKVLESSSMAKGDGWKVMAKGDGWE",
-                  "leader": [
-                        "MSKELEKVLESSSM"
-                  ],
-                  "core": [
-                        "AKGDGWKVM"
-                  ],
-                  "follower": [
-                        "AKGDGWE"
-                  ]
-            }
+      "follower": [
+        "AKGDGWE"
       ]
+    }
+  ]
 }

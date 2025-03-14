@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AHKH01000064.1",
-            "mibig_acc": "BGC0001356"
+  "identifiers": {
+    "ncbi_acc": "AHKH01000064.1",
+    "mibig_acc": "BGC0001356"
+  },
+  "compound_name": [
+    "paeninodin"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1074/jbc.M116.722108"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_040732785.1"
       },
-      "compound_name": [
-            "paeninodin"
+      "complete": "MKKQYSKPSLEVLDVHQTMAGPGTSTPDAFQPDPDEDVHYDS",
+      "leader": [
+        "MKKQYSKPSLEVLDVHQTM"
       ],
-      "ripp_class": "Lasso",
-      "ref": [
-            "doi:10.1074/jbc.M116.722108"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "WP_040732785.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MKKQYSKPSLEVLDVHQTMAGPGTSTPDAFQPDPDEDVHYDS",
-                  "leader": [
-                        "MKKQYSKPSLEVLDVHQTM"
-                  ],
-                  "core": [
-                        "AGPGTSTPDAFQPDPDEDVHYDS"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "AGPGTSTPDAFQPDPDEDVHYDS"
       ]
+    }
+  ]
 }

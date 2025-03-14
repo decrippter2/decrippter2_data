@@ -1,31 +1,29 @@
 {
-      "identifiers": {
-            "ncbi_acc": "NZ_FIGU01000034.1",
-            "mibig_acc": ""
+  "identifiers": {
+    "ncbi_acc": "NZ_FIGU01000034.1"
+  },
+  "compound_name": [
+    "RrrA"
+  ],
+  "ripp_class": "Ryptide",
+  "ref": [
+    "doi:10.1021/jacs.9b09210"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_261291962.1"
       },
-      "compound_name": [
-            "RrrA"
+      "complete": "MQIEFTSEELMQMKTIDELMSIVQDTPGEIVPAGPFITRRRY",
+      "leader": [
+        "TBA"
       ],
-      "ripp_class": "Ryptide",
-      "ref": [
-            "doi:10.1021/jacs.9b09210"
+      "core": [
+        "TBA"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "WP_261291962.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MQIEFTSEELMQMKTIDELMSIVQDTPGEIVPAGPFITRRRY",
-                  "leader": [
-                        "TBA"
-                  ],
-                  "core": [
-                        "TBA"
-                  ],
-                  "follower": [
-                        "TBA"
-                  ]
-            }
+      "follower": [
+        "TBA"
       ]
+    }
+  ]
 }

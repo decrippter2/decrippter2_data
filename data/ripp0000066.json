@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AB362350.1",
-            "mibig_acc": "BGC0000536"
+  "identifiers": {
+    "ncbi_acc": "AB362350.1",
+    "mibig_acc": "BGC0000536"
+  },
+  "compound_name": [
+    "nisin Q"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1271/bbb.67.1616"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BAG71479.1",
+        "uniprot": "Q76HP8"
       },
-      "compound_name": [
-            "nisin Q"
+      "complete": "MSTKDFNLDLVSVSKTDSGASTRITSISLCTPGCKTGVLMGCNLKTATCNCSVHVSK",
+      "leader": [
+        "MSTKDFNLDLVSVSKTDSGASTR"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1271/bbb.67.1616"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "BAG71479.1",
-                        "uniprot": "Q76HP8"
-                  },
-                  "complete": "MSTKDFNLDLVSVSKTDSGASTRITSISLCTPGCKTGVLMGCNLKTATCNCSVHVSK",
-                  "leader": [
-                        "MSTKDFNLDLVSVSKTDSGASTR"
-                  ],
-                  "core": [
-                        "ITSISLCTPGCKTGVLMGCNLKTATCNCSVHVSK"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "ITSISLCTPGCKTGVLMGCNLKTATCNCSVHVSK"
       ]
+    }
+  ]
 }

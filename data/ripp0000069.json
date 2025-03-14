@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AB121757.3",
-            "mibig_acc": "BGC0000539"
+  "identifiers": {
+    "ncbi_acc": "AB121757.3",
+    "mibig_acc": "BGC0000539"
+  },
+  "compound_name": [
+    "nukacin ISK-1"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1128/aac.01623-08"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BAC98759.1",
+        "uniprot": "Q9KWM4"
       },
-      "compound_name": [
-            "nukacin ISK-1"
+      "complete": "MENSKVMKDIEVANLLEEVQEDELNEVLGAKKKSGVIPTVSHDCHMNSFQFVFTCCS",
+      "leader": [
+        "MENSKVMKDIEVANLLEEVQEDELNEVLGA"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1128/aac.01623-08"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "BAC98759.1",
-                        "uniprot": "Q9KWM4"
-                  },
-                  "complete": "MENSKVMKDIEVANLLEEVQEDELNEVLGAKKKSGVIPTVSHDCHMNSFQFVFTCCS",
-                  "leader": [
-                        "MENSKVMKDIEVANLLEEVQEDELNEVLGA"
-                  ],
-                  "core": [
-                        "KKKSGVIPTVSHDCHMNSFQFVFTCCS"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "KKKSGVIPTVSHDCHMNSFQFVFTCCS"
       ]
+    }
+  ]
 }

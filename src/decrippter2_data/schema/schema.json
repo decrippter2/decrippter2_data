@@ -49,8 +49,7 @@
         "type": "object",
         "additionalProperties": false,
         "required": [
-          "complete",
-          "core"
+          "complete"
         ],
         "properties": {
           "protein_ids": {
@@ -103,7 +102,8 @@
     },
     "uniprot": {
       "title": "Uniprot ID reference.",
-      "type": "string"
+      "type": "string",
+      "pattern": "^[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}$"
     },
     "genpept": {
       "title": "GenBank GenPept ID (= protein ID, GenBank gene products)",
@@ -111,7 +111,8 @@
     },
     "mibig": {
       "title": "MIBiG ID reference",
-      "type": "string"
+      "type": "string",
+      "pattern": "^BGC\\d{7}$"
     },
     "class": {
       "type": "string",

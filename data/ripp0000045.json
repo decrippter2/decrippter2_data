@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "DQ367437.1",
-            "mibig_acc": "BGC0000514"
+  "identifiers": {
+    "ncbi_acc": "DQ367437.1",
+    "mibig_acc": "BGC0000514"
+  },
+  "compound_name": [
+    "gallidermin"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1016/j.ijmm.2013.08.012"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ABC94902.1",
+        "uniprot": "A3QNP3"
       },
-      "compound_name": [
-            "gallidermin"
+      "complete": "MEAVKEKNELFDLDVKVNAKESNDSGAEPRIASKFLCTPGCAKTGSFNSYCC",
+      "leader": [
+        "MEAVKEKNELFDLDVKVNAKESNDSGAEPR"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1016/j.ijmm.2013.08.012"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ABC94902.1",
-                        "uniprot": "A3QNP3"
-                  },
-                  "complete": "MEAVKEKNELFDLDVKVNAKESNDSGAEPRIASKFLCTPGCAKTGSFNSYCC",
-                  "leader": [
-                        "MEAVKEKNELFDLDVKVNAKESNDSGAEPR"
-                  ],
-                  "core": [
-                        "IASKFLCTPGCAKTGSFNSYCC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "IASKFLCTPGCAKTGSFNSYCC"
       ]
+    }
+  ]
 }

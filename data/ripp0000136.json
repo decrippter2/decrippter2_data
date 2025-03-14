@@ -1,31 +1,31 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AB820694.1",
-            "mibig_acc": "BGC0000606"
+  "identifiers": {
+    "ncbi_acc": "AB820694.1",
+    "mibig_acc": "BGC0000606"
+  },
+  "compound_name": [
+    "lactazole"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1021/jacs.0c05541"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BAO57434.1",
+        "uniprot": "X5HYB1"
       },
-      "compound_name": [
-            "lactazole"
+      "complete": "MSDITASRVESLDLQDLDLSELTVTSLRDTVALPENGASWGSCSCQASSSCAQPQDM",
+      "leader": [
+        "MSDITASRVESLDLQDLDLSELTVTSLRDTVALPENGA"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1021/jacs.0c05541"
+      "core": [
+        "SWGSCSCQASSSCAQP"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "BAO57434.1",
-                        "uniprot": "X5HYB1"
-                  },
-                  "complete": "MSDITASRVESLDLQDLDLSELTVTSLRDTVALPENGASWGSCSCQASSSCAQPQDM",
-                  "leader": [
-                        "MSDITASRVESLDLQDLDLSELTVTSLRDTVALPENGA"
-                  ],
-                  "core": [
-                        "SWGSCSCQASSSCAQP"
-                  ],
-                  "follower": [
-                        "QDM"
-                  ]
-            }
+      "follower": [
+        "QDM"
       ]
+    }
+  ]
 }

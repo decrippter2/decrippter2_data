@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "NZ_JARMCY010000004.1",
-            "mibig_acc": "BGC0002902"
+  "identifiers": {
+    "ncbi_acc": "NZ_JARMCY010000004.1",
+    "mibig_acc": "BGC0002902"
+  },
+  "compound_name": [
+    "Las-2"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1038/s41467-022-33890-w"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_262726039.1"
       },
-      "compound_name": [
-            "Las-2"
+      "complete": "MNQEKTIEKVSFEEPEIFTEGNLEELTGGMSGRIPDGFHGGRGF",
+      "leader": [
+        "MNQEKTIEKVSFEEPEIFTEGNLEELTG"
       ],
-      "ripp_class": "Lasso",
-      "ref": [
-            "doi:10.1038/s41467-022-33890-w"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "WP_262726039.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MNQEKTIEKVSFEEPEIFTEGNLEELTGGMSGRIPDGFHGGRGF",
-                  "leader": [
-                        "MNQEKTIEKVSFEEPEIFTEGNLEELTG"
-                  ],
-                  "core": [
-                        "GMSGRIPDGFHGGRGF"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GMSGRIPDGFHGGRGF"
       ]
+    }
+  ]
 }

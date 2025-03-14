@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "NZ_DS999644.1",
-            "mibig_acc": "BGC0000553"
+  "identifiers": {
+    "ncbi_acc": "NZ_DS999644.1",
+    "mibig_acc": "BGC0000553"
+  },
+  "compound_name": [
+    "SRO15-2212"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1038/nchembio.684"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_003966507.1"
       },
-      "compound_name": [
-            "SRO15-2212"
+      "complete": "MALLDLQAMDTPAEDSFGELATGSQVSLLVCEYSSLSVVLCTP",
+      "leader": [
+        "MALLDLQAMDTPAEDSFGELA"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1038/nchembio.684"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "WP_003966507.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MALLDLQAMDTPAEDSFGELATGSQVSLLVCEYSSLSVVLCTP",
-                  "leader": [
-                        "MALLDLQAMDTPAEDSFGELA"
-                  ],
-                  "core": [
-                        "TGSQVSLLVCEYSSLSVVLCTP"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "TGSQVSLLVCEYSSLSVVLCTP"
       ]
+    }
+  ]
 }

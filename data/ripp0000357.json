@@ -1,33 +1,32 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AP024565.1",
-            "mibig_acc": "BGC0002952"
+  "identifiers": {
+    "ncbi_acc": "AP024565.1",
+    "mibig_acc": "BGC0002952"
+  },
+  "compound_name": [
+    "Argicyclamide A",
+    "Argicyclamide B",
+    "Argicyclamide C"
+  ],
+  "ripp_class": "Cyanobactin",
+  "ref": [
+    "doi:10.1021/jacs.1c05732"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BCU11647.1"
       },
-      "compound_name": [
-            "Argicyclamide A",
-            "Argicyclamide B",
-            "Argicyclamide C"
+      "complete": "MKNKTLLPQLTTPVERQHQAAASSESGANSLSASRVFIVLPPFAEDGAE",
+      "leader": [
+        "MKNKTLLPQLTTPVERQHQAAASSESGANSLSAS"
       ],
-      "ripp_class": "Cyanobactin",
-      "ref": [
-            "doi:10.1021/jacs.1c05732"
+      "core": [
+        "RVFIVLPP"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "BCU11647.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MKNKTLLPQLTTPVERQHQAAASSESGANSLSASRVFIVLPPFAEDGAE",
-                  "leader": [
-                        "MKNKTLLPQLTTPVERQHQAAASSESGANSLSAS"
-                  ],
-                  "core": [
-                        "RVFIVLPP"
-                  ],
-                  "follower": [
-                        "FAEDGAE"
-                  ]
-            }
+      "follower": [
+        "FAEDGAE"
       ]
+    }
+  ]
 }

@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AJ566621.1",
-            "mibig_acc": "BGC0000488"
+  "identifiers": {
+    "ncbi_acc": "AJ566621.1",
+    "mibig_acc": "BGC0000488"
+  },
+  "compound_name": [
+    "circularin A"
+  ],
+  "ripp_class": "Head-to-tail cyclized peptide",
+  "ref": [
+    "doi:10.1128/AEM.69.3.1589-1597.2003"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "CAD97580.1",
+        "uniprot": "Q8GB47"
       },
-      "compound_name": [
-            "circularin A"
+      "complete": "MFLVAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY",
+      "leader": [
+        "MFL"
       ],
-      "ripp_class": "Head-to-tail cyclized peptide",
-      "ref": [
-            "doi:10.1128/AEM.69.3.1589-1597.2003"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "CAD97580.1",
-                        "uniprot": "Q8GB47"
-                  },
-                  "complete": "MFLVAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY",
-                  "leader": [
-                        "MFL"
-                  ],
-                  "core": [
-                        "VAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "VAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY"
       ]
+    }
+  ]
 }

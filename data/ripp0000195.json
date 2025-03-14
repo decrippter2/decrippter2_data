@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AYXG01000139.1",
-            "mibig_acc": "BGC0001496"
+  "identifiers": {
+    "ncbi_acc": "AYXG01000139.1",
+    "mibig_acc": "BGC0001496"
+  },
+  "compound_name": [
+    "actinokineosin"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1111/lam.12693"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EWC60872.1",
+        "uniprot": "W7IVR9"
       },
-      "compound_name": [
-            "actinokineosin"
+      "complete": "MLSVYIAPVFEKIGGFREVTNGYPFWDNRDIFGGYTFIG",
+      "leader": [
+        "MLSVYIAPVFEKIGGFREVTN"
       ],
-      "ripp_class": "Lasso",
-      "ref": [
-            "doi:10.1111/lam.12693"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "EWC60872.1",
-                        "uniprot": "W7IVR9"
-                  },
-                  "complete": "MLSVYIAPVFEKIGGFREVTNGYPFWDNRDIFGGYTFIG",
-                  "leader": [
-                        "MLSVYIAPVFEKIGGFREVTN"
-                  ],
-                  "core": [
-                        "GYPFWDNRDIFGGYTFIG"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GYPFWDNRDIFGGYTFIG"
       ]
+    }
+  ]
 }

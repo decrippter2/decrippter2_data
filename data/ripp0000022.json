@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AMQS01000001.1",
-            "mibig_acc": "BGC0000490"
+  "identifiers": {
+    "ncbi_acc": "AMQS01000001.1",
+    "mibig_acc": "BGC0000490"
+  },
+  "compound_name": [
+    "garvicin ML"
+  ],
+  "ripp_class": "Head-to-tail cyclized peptide",
+  "ref": [
+    "doi:10.1128/AEM.01173-10"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EKF52513.1",
+        "uniprot": "K2NY59"
       },
-      "compound_name": [
-            "garvicin ML"
+      "complete": "MFDLVATGMAAGVAKTIVNAVSAGMDIATALSLFSGAFTAAGGIMALIKKYAQKKLWKQLIAA",
+      "leader": [
+        "MFD"
       ],
-      "ripp_class": "Head-to-tail cyclized peptide",
-      "ref": [
-            "doi:10.1128/AEM.01173-10"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "EKF52513.1",
-                        "uniprot": "K2NY59"
-                  },
-                  "complete": "MFDLVATGMAAGVAKTIVNAVSAGMDIATALSLFSGAFTAAGGIMALIKKYAQKKLWKQLIAA",
-                  "leader": [
-                        "MFD"
-                  ],
-                  "core": [
-                        "LVATGMAAGVAKTIVNAVSAGMDIATALSLFSGAFTAAGGIMALIKKYAQKKLWKQLIAA"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "LVATGMAAGVAKTIVNAVSAGMDIATALSLFSGAFTAAGGIMALIKKYAQKKLWKQLIAA"
       ]
+    }
+  ]
 }

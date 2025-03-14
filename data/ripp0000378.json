@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "MRCR01000043.1",
-            "mibig_acc": "BGC0003043"
+  "identifiers": {
+    "ncbi_acc": "MRCR01000043.1",
+    "mibig_acc": "BGC0003043"
+  },
+  "compound_name": [
+    "LanII-23"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1038/s41467-022-33890-w"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "PBJ19532.1"
       },
-      "compound_name": [
-            "LanII-23"
+      "complete": "MSEKILNMSGDFDFEFNAYQAPANTGEILATTMECNTFGTCTNIGCSTIGC",
+      "leader": [
+        "MSEKILNMSGDFDFEFNAYQAPANTGEIL"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1038/s41467-022-33890-w"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "PBJ19532.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MSEKILNMSGDFDFEFNAYQAPANTGEILATTMECNTFGTCTNIGCSTIGC",
-                  "leader": [
-                        "MSEKILNMSGDFDFEFNAYQAPANTGEIL"
-                  ],
-                  "core": [
-                        "ATTMECNTFGTCTNIGCSTIGC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "ATTMECNTFGTCTNIGCSTIGC"
       ]
+    }
+  ]
 }

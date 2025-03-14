@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "SEN48742.1",
-            "mibig_acc": "BGC0003059"
+  "identifiers": {
+    "ncbi_acc": "SEN48742.1",
+    "mibig_acc": "BGC0003059"
+  },
+  "compound_name": [
+    "Lihuanodin"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1021/jacs.1c05017"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "SEN48697.1",
+        "uniprot": "A0A1H8GYX0"
       },
-      "compound_name": [
-            "Lihuanodin"
+      "complete": "MEYQVPELIEIGSFEEMTLGSKYSDTADESSYRW",
+      "leader": [
+        "MEYQVPELIEIGSFEEMTL"
       ],
-      "ripp_class": "Lasso",
-      "ref": [
-            "doi:10.1021/jacs.1c05017"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "SEN48697.1",
-                        "uniprot": "A0A1H8GYX0"
-                  },
-                  "complete": "MEYQVPELIEIGSFEEMTLGSKYSDTADESSYRW",
-                  "leader": [
-                        "MEYQVPELIEIGSFEEMTL"
-                  ],
-                  "core": [
-                        "GSKYSDTADESSYRW"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GSKYSDTADESSYRW"
       ]
+    }
+  ]
 }

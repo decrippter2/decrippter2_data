@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AJ430547.1",
-            "mibig_acc": "BGC0000602"
+  "identifiers": {
+    "ncbi_acc": "AJ430547.1",
+    "mibig_acc": "BGC0000602"
+  },
+  "compound_name": [
+    "subtilosin A"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1021/bi0359527"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "CAD23198.1",
+        "uniprot": "O07623"
       },
-      "compound_name": [
-            "subtilosin A"
+      "complete": "MKKAVIVENKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG",
+      "leader": [
+        "MKKAVIVE"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1021/bi0359527"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "CAD23198.1",
-                        "uniprot": "O07623"
-                  },
-                  "complete": "MKKAVIVENKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG",
-                  "leader": [
-                        "MKKAVIVE"
-                  ],
-                  "core": [
-                        "NKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "NKGCATCSIGAACLVDGPIPDFEIAGATGLFGLWG"
       ]
+    }
+  ]
 }

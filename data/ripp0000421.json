@@ -1,31 +1,29 @@
 {
-      "identifiers": {
-            "ncbi_acc": "CP002465.1",
-            "mibig_acc": ""
+  "identifiers": {
+    "ncbi_acc": "CP002465.1"
+  },
+  "compound_name": [
+    "tqqA"
+  ],
+  "ripp_class": "Rotapeptide",
+  "ref": [
+    "doi:10.1021/jacs.9b05151"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ADV71007.1"
       },
-      "compound_name": [
-            "tqqA"
+      "complete": "MSVIEFKKLSSKLLKVSKIETLSGCGTKRTQQTKGWY",
+      "leader": [
+        "TBA"
       ],
-      "ripp_class": "Rotapeptide",
-      "ref": [
-            "doi:10.1021/jacs.9b05151"
+      "core": [
+        "TBA"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ADV71007.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MSVIEFKKLSSKLLKVSKIETLSGCGTKRTQQTKGWY",
-                  "leader": [
-                        "TBA"
-                  ],
-                  "core": [
-                        "TBA"
-                  ],
-                  "follower": [
-                        "TBA"
-                  ]
-            }
+      "follower": [
+        "TBA"
       ]
+    }
+  ]
 }

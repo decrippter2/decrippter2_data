@@ -1,48 +1,48 @@
 {
-      "identifiers": {
-            "ncbi_acc": "HQ655154.1",
-            "mibig_acc": "BGC0000479"
+  "identifiers": {
+    "ncbi_acc": "HQ655154.1",
+    "mibig_acc": "BGC0000479"
+  },
+  "compound_name": [
+    "prenylagaramide B",
+    "prenylagaramide C"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1016/j.chembiol.2011.01.019"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AED99431.1",
+        "uniprot": "F5B6Z2"
       },
-      "compound_name": [
-            "prenylagaramide B",
-            "prenylagaramide C"
+      "complete": "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPHQAYLGIPLPFAGDDAE",
+      "leader": [
+        "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPH"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1016/j.chembiol.2011.01.019"
+      "core": [
+        "QAYLGIPLP"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AED99431.1",
-                        "uniprot": "F5B6Z2"
-                  },
-                  "complete": "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPHQAYLGIPLPFAGDDAE",
-                  "leader": [
-                        "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPH"
-                  ],
-                  "core": [
-                        "QAYLGIPLP"
-                  ],
-                  "follower": [
-                        "FAGDDAE"
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "AED99432.1",
-                        "uniprot": "F5B6Z3"
-                  },
-                  "complete": "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPHINPYLYPFAGDDAE",
-                  "leader": [
-                        "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPH"
-                  ],
-                  "core": [
-                        "INPYLYP"
-                  ],
-                  "follower": [
-                        "FAGDDAE"
-                  ]
-            }
+      "follower": [
+        "FAGDDAE"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "AED99432.1",
+        "uniprot": "F5B6Z3"
+      },
+      "complete": "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPHINPYLYPFAGDDAE",
+      "leader": [
+        "MTKKNLKPQQAAPVQREINTTSSESGTSTGLTPH"
+      ],
+      "core": [
+        "INPYLYP"
+      ],
+      "follower": [
+        "FAGDDAE"
+      ]
+    }
+  ]
 }

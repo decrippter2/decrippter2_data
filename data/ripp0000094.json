@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AM412317.1",
-            "mibig_acc": "BGC0000564"
+  "identifiers": {
+    "ncbi_acc": "AM412317.1",
+    "mibig_acc": "BGC0000564"
+  },
+  "compound_name": [
+    "clostridiolysin S"
+  ],
+  "ripp_class": "Linear azole-containing peptide",
+  "ref": [
+    "doi:10.1021/cb500843r"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "CAL82040.1",
+        "uniprot": "A5HZ31"
       },
-      "compound_name": [
-            "clostridiolysin S"
+      "complete": "MKDMLKFNEHVLTTTNNSNNKVTVAPGSCCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN",
+      "leader": [
+        "MKDMLKFNEHVLTTTNNSNNKVTVAPGS"
       ],
-      "ripp_class": "Linear azole-containing peptide",
-      "ref": [
-            "doi:10.1021/cb500843r"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "CAL82040.1",
-                        "uniprot": "A5HZ31"
-                  },
-                  "complete": "MKDMLKFNEHVLTTTNNSNNKVTVAPGSCCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN",
-                  "leader": [
-                        "MKDMLKFNEHVLTTTNNSNNKVTVAPGS"
-                  ],
-                  "core": [
-                        "CCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "CCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN"
       ]
+    }
+  ]
 }

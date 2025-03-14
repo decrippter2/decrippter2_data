@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "NC_003888.3",
-            "mibig_acc": "BGC0000595"
+  "identifiers": {
+    "ncbi_acc": "NC_003888.3",
+    "mibig_acc": "BGC0000595"
+  },
+  "compound_name": [
+    "SCO-2138"
+  ],
+  "ripp_class": "N-Formylated TBA",
+  "ref": [
+    "doi:10.1038/nchembio.684"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "THA89188.1"
       },
-      "compound_name": [
-            "SCO-2138"
+      "complete": "MEQVIVALKNACDCRDQRYLRCASNGLQTVVDAHVPSSPGGARRVPHLNSARSCTIMNLLTDILAGLVHFVGWLV",
+      "leader": [
+        "MEQVIVALKNACDCRDQRYLRCASNGLQTVVDAHVPSSPGGARRVPHLNSARSCTI"
       ],
-      "ripp_class": "N-Formylated TBA",
-      "ref": [
-            "doi:10.1038/nchembio.684"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "THA89188.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MEQVIVALKNACDCRDQRYLRCASNGLQTVVDAHVPSSPGGARRVPHLNSARSCTIMNLLTDILAGLVHFVGWLV",
-                  "leader": [
-                        "MEQVIVALKNACDCRDQRYLRCASNGLQTVVDAHVPSSPGGARRVPHLNSARSCTI"
-                  ],
-                  "core": [
-                        "MNLLTDILAGLVHFVGWLV"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "MNLLTDILAGLVHFVGWLV"
       ]
+    }
+  ]
 }

@@ -1,48 +1,42 @@
 {
-      "identifiers": {
-            "ncbi_acc": "GU949560.1",
-            "mibig_acc": "BGC0000525"
+  "identifiers": {
+    "ncbi_acc": "GU949560.1",
+    "mibig_acc": "BGC0000525"
+  },
+  "compound_name": [
+    "lichenicidin VK21 A1",
+    "lichenicidin VK21 A2"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1021/bi100871b"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ADM36017.1",
+        "uniprot": "P86476"
       },
-      "compound_name": [
-            "lichenicidin VK21 A1",
-            "lichenicidin VK21 A2"
+      "complete": "MKTMKNSAAREAFKGANHPAGMVSEEELKALVGGNDVNPETTPATTSSWTCITAGVTVSASLCPTTKCTSRC",
+      "leader": [
+        "MKTMKNSAAREAFKGANHPAGMVSEEELKALVGGNDVNPE"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1021/bi100871b"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ADM36017.1",
-                        "uniprot": "P86476"
-                  },
-                  "complete": "MKTMKNSAAREAFKGANHPAGMVSEEELKALVGGNDVNPETTPATTSSWTCITAGVTVSASLCPTTKCTSRC",
-                  "leader": [
-                        "MKTMKNSAAREAFKGANHPAGMVSEEELKALVGGNDVNPE"
-                  ],
-                  "core": [
-                        "TTPATTSSWTCITAGVTVSASLCPTTKCTSRC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "ADM36018.1",
-                        "uniprot": "P86475"
-                  },
-                  "complete": "MSKKEMILSWKNPMYRTESSYHPAGNILKELQEEEQHSIAGGTITLSTCAILSKPLGNNGYLCTVTKECMPSCN",
-                  "leader": [
-                        "MSKKEMILSWKNPMYRTESSYHPAGNILKELQEEEQHSIAGG"
-                  ],
-                  "core": [
-                        "TITLSTCAILSKPLGNNGYLCTVTKECMPSCN"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "TTPATTSSWTCITAGVTVSASLCPTTKCTSRC"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "ADM36018.1",
+        "uniprot": "P86475"
+      },
+      "complete": "MSKKEMILSWKNPMYRTESSYHPAGNILKELQEEEQHSIAGGTITLSTCAILSKPLGNNGYLCTVTKECMPSCN",
+      "leader": [
+        "MSKKEMILSWKNPMYRTESSYHPAGNILKELQEEEQHSIAGG"
+      ],
+      "core": [
+        "TITLSTCAILSKPLGNNGYLCTVTKECMPSCN"
+      ]
+    }
+  ]
 }

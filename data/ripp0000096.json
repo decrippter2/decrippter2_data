@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "AE004092.2",
-            "mibig_acc": "BGC0000566"
+  "identifiers": {
+    "ncbi_acc": "AE004092.2",
+    "mibig_acc": "BGC0000566"
+  },
+  "compound_name": [
+    "streptolysin S"
+  ],
+  "ripp_class": "Linear azole-containing peptide",
+  "ref": [
+    "doi:10.1128/iai.68.7.4245-4254.2000"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AAK33684.1",
+        "uniprot": "Q7DAM4"
       },
-      "compound_name": [
-            "streptolysin S"
+      "complete": "MLKFTSNILATSVAETTQVAPGGCCCCCTTCCFSIATGSGNSQGGSGSYTPGK",
+      "leader": [
+        "MLKFTSNILATSVAETTQVAPGG"
       ],
-      "ripp_class": "Linear azole-containing peptide",
-      "ref": [
-            "doi:10.1128/iai.68.7.4245-4254.2000"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "AAK33684.1",
-                        "uniprot": "Q7DAM4"
-                  },
-                  "complete": "MLKFTSNILATSVAETTQVAPGGCCCCCTTCCFSIATGSGNSQGGSGSYTPGK",
-                  "leader": [
-                        "MLKFTSNILATSVAETTQVAPGG"
-                  ],
-                  "core": [
-                        "CCCCCTTCCFSIATGSGNSQGGSGSYTPGK"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "CCCCCTTCCFSIATGSGNSQGGSGSYTPGK"
       ]
+    }
+  ]
 }

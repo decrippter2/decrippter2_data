@@ -205,7 +205,7 @@ class SchemaManager(BaseModel):
             )
         except jsonschema.exceptions.ValidationError as e:
             raise ValueError(
-                f"SchemaManager: Validation of instance {instance.name} against "
+                f"SchemaManager: Validation of instance {instance} against "
                 f"decrippter2_data schema led to an error: {e!s}"
             ) from e
         except Exception as e:

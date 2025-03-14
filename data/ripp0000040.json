@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "X62386.1",
-            "mibig_acc": "BGC0000508"
+  "identifiers": {
+    "ncbi_acc": "X62386.1",
+    "mibig_acc": "BGC0000508"
+  },
+  "compound_name": [
+    "epidermin"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1016/j.ijmm.2013.08.012"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "CAA44252.1",
+        "uniprot": "P08136"
       },
-      "compound_name": [
-            "epidermin"
+      "complete": "MEAVKEKNDLFNLDVKVNAKESNDSGAEPRIASKFICTPGCAKTGSFNSYCC",
+      "leader": [
+        "MEAVKEKNDLFNLDVKVNAKESNDSGAEPR"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1016/j.ijmm.2013.08.012"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "CAA44252.1",
-                        "uniprot": "P08136"
-                  },
-                  "complete": "MEAVKEKNDLFNLDVKVNAKESNDSGAEPRIASKFICTPGCAKTGSFNSYCC",
-                  "leader": [
-                        "MEAVKEKNDLFNLDVKVNAKESNDSGAEPR"
-                  ],
-                  "core": [
-                        "IASKFICTPGCAKTGSFNSYCC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "IASKFICTPGCAKTGSFNSYCC"
       ]
+    }
+  ]
 }

@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "Z49865.1",
-            "mibig_acc": "BGC0000543"
+  "identifiers": {
+    "ncbi_acc": "Z49865.1",
+    "mibig_acc": "BGC0000543"
+  },
+  "compound_name": [
+    "pep5"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1007/BF00447005"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "CAA90023.1",
+        "uniprot": "P19578"
       },
-      "compound_name": [
-            "pep5"
+      "complete": "MKNNKNLFDLEIKKETSQNTDELEPQTAGPAIRASVKQCQKTLKATRLFTVSCKGKNGCK",
+      "leader": [
+        "MKNNKNLFDLEIKKETSQNTDELEPQ"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1007/BF00447005"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "CAA90023.1",
-                        "uniprot": "P19578"
-                  },
-                  "complete": "MKNNKNLFDLEIKKETSQNTDELEPQTAGPAIRASVKQCQKTLKATRLFTVSCKGKNGCK",
-                  "leader": [
-                        "MKNNKNLFDLEIKKETSQNTDELEPQ"
-                  ],
-                  "core": [
-                        "TAGPAIRASVKQCQKTLKATRLFTVSCKGKNGCK"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "TAGPAIRASVKQCQKTLKATRLFTVSCKGKNGCK"
       ]
+    }
+  ]
 }

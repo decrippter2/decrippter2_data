@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "ABCS01000021.1",
-            "mibig_acc": "BGC0003122"
+  "identifiers": {
+    "ncbi_acc": "ABCS01000021.1",
+    "mibig_acc": "BGC0003122"
+  },
+  "compound_name": [
+    "Plesiocin"
+  ],
+  "ripp_class": "Graspetide",
+  "ref": [
+    "doi:10.1021/acs.biochem.9b00803"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EDM74818.1",
+        "uniprot": "A6GH40"
       },
-      "compound_name": [
-            "Plesiocin"
+      "complete": "MSKNENNKKQLRDLFIEDLGKVTGGKGGPYTTLAIGEEDPITTLAIGEEDPDPTTLALGEEDPTTLAIGEE",
+      "leader": [
+        "MSKNENNKKQLRDLFIEDLGKVTGGK"
       ],
-      "ripp_class": "Graspetide",
-      "ref": [
-            "doi:10.1021/acs.biochem.9b00803"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "EDM74818.1",
-                        "uniprot": "A6GH40"
-                  },
-                  "complete": "MSKNENNKKQLRDLFIEDLGKVTGGKGGPYTTLAIGEEDPITTLAIGEEDPDPTTLALGEEDPTTLAIGEE",
-                  "leader": [
-                        "MSKNENNKKQLRDLFIEDLGKVTGGK"
-                  ],
-                  "core": [
-                        "GGPYTTLAIGEEDPITTLAIGEEDPDPTTLALGEEDPTTLAIGEE"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GGPYTTLAIGEEDPITTLAIGEEDPDPTTLALGEEDPTTLAIGEE"
       ]
+    }
+  ]
 }

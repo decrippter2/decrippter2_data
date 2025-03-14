@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "NZ_KI421507.1",
-            "mibig_acc": "BGC0002698"
+  "identifiers": {
+    "ncbi_acc": "NZ_KI421507.1",
+    "mibig_acc": "BGC0002698"
+  },
+  "compound_name": [
+    "phaeornamide"
+  ],
+  "ripp_class": "Selidamide",
+  "ref": [
+    "doi:10.1073/pnas.2113120119"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_036784545.1"
       },
-      "compound_name": [
-            "phaeornamide"
+      "complete": "MSNWTEEDQHTAISALMERCASDANFYQSALADPAAAIKTVSGKALPEGFNLRLVANEGADLTLVLPDPVSEDLSDADLEAVAGGGRSCTVTIM",
+      "leader": [
+        "MSNWTEEDQHTAISALMERCASDANFYQSALADPAAAIKTVSGKALPEGFNLRLVANEGADLTLVLPDPVSEDLSDADLEAVAGG"
       ],
-      "ripp_class": "Selidamide",
-      "ref": [
-            "doi:10.1073/pnas.2113120119"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "WP_036784545.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MSNWTEEDQHTAISALMERCASDANFYQSALADPAAAIKTVSGKALPEGFNLRLVANEGADLTLVLPDPVSEDLSDADLEAVAGGGRSCTVTIM",
-                  "leader": [
-                        "MSNWTEEDQHTAISALMERCASDANFYQSALADPAAAIKTVSGKALPEGFNLRLVANEGADLTLVLPDPVSEDLSDADLEAVAGG"
-                  ],
-                  "core": [
-                        "GRSCTVTIM"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GRSCTVTIM"
       ]
+    }
+  ]
 }

@@ -1,47 +1,41 @@
 {
-      "identifiers": {
-            "ncbi_acc": "KY914474.1",
-            "mibig_acc": "BGC0001701"
+  "identifiers": {
+    "ncbi_acc": "KY914474.1",
+    "mibig_acc": "BGC0001701"
+  },
+  "compound_name": [
+    "nisin O"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1101/2022.02.15.480493"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ASY03212.1",
+        "uniprot": "A0A286N5V5"
       },
-      "compound_name": [
-            "nisin O"
+      "complete": "MGKFDDFDLDVTKTAAQGGIEPKYKSKSACTPGCPTGILMTCPLKTATCGCHITGK",
+      "leader": [
+        "MGKFDDFDLDVTKTAAQGGIEPK"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1101/2022.02.15.480493"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ASY03212.1",
-                        "uniprot": "A0A286N5V5"
-                  },
-                  "complete": "MGKFDDFDLDVTKTAAQGGIEPKYKSKSACTPGCPTGILMTCPLKTATCGCHITGK",
-                  "leader": [
-                        "MGKFDDFDLDVTKTAAQGGIEPK"
-                  ],
-                  "core": [
-                        "YKSKSACTPGCPTGILMTCPLKTATCGCHITGK"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "ASY03215.1",
-                        "uniprot": "A0A286N5V8"
-                  },
-                  "complete": "MAKFDDFDLDIIEKKVRRDIIPASITSQHSFCTPNCLTGFLCPPKTQLTCTCKLKGQ",
-                  "leader": [
-                        "MAKFDDFDLDIIEKKVRRDIIPASI"
-                  ],
-                  "core": [
-                        "TSQHSFCTPNCLTGFLCPPKTQLTCTCKLKGQ"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "YKSKSACTPGCPTGILMTCPLKTATCGCHITGK"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "ASY03215.1",
+        "uniprot": "A0A286N5V8"
+      },
+      "complete": "MAKFDDFDLDIIEKKVRRDIIPASITSQHSFCTPNCLTGFLCPPKTQLTCTCKLKGQ",
+      "leader": [
+        "MAKFDDFDLDIIEKKVRRDIIPASI"
+      ],
+      "core": [
+        "TSQHSFCTPNCLTGFLCPPKTQLTCTCKLKGQ"
+      ]
+    }
+  ]
 }

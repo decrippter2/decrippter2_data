@@ -1,47 +1,39 @@
 {
-      "identifiers": {
-            "ncbi_acc": "NZ_AUEY01000023.1",
-            "mibig_acc": "BGC0002897"
+  "identifiers": {
+    "ncbi_acc": "NZ_AUEY01000023.1",
+    "mibig_acc": "BGC0002897"
+  },
+  "compound_name": [
+    "Tha-1"
+  ],
+  "ripp_class": "Thioamitide",
+  "ref": [
+    "doi:10.1038/s41467-022-33890-w"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_051284026.1"
       },
-      "compound_name": [
-            "Tha-1"
+      "complete": "MSLDDAKKMIEKLKTEKGLMEKVKAADNEGKKKIAKDMGLAFTADEMKEAIKADSKLSDEDLDTVAGGASATWVTVGVTSVGAAATCGW",
+      "leader": [
+        "MSLDDAKKMIEKLKTEKGLMEKVKAADNEGKKKIAKDMGLAFTADEMKEAIKADSKLSDEDLDTVAGG"
       ],
-      "ripp_class": "Thioamitide",
-      "ref": [
-            "doi:10.1038/s41467-022-33890-w"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "WP_051284026.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MSLDDAKKMIEKLKTEKGLMEKVKAADNEGKKKIAKDMGLAFTADEMKEAIKADSKLSDEDLDTVAGGASATWVTVGVTSVGAAATCGW",
-                  "leader": [
-                        "MSLDDAKKMIEKLKTEKGLMEKVKAADNEGKKKIAKDMGLAFTADEMKEAIKADSKLSDEDLDTVAGG"
-                  ],
-                  "core": [
-                        "ASATWVTVGVTSVGAAATCGW"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "WP_027359228.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MSLDHAKKMLEKLKTDKDLMEKVKAADNEGKKKIAEDMGLTFTAEEMKEAIKADSSLSDEDLATVAGGASGTWVAVGAGAAGAAAACGW",
-                  "leader": [
-                        "MSLDHAKKMLEKLKTDKDLMEKVKAADNEGKKKIAEDMGLTFTAEEMKEAIKADSSLSDEDLATVAGG"
-                  ],
-                  "core": [
-                        "ASGTWVAVGAGAAGAAAACGW"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "ASATWVTVGVTSVGAAATCGW"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WP_027359228.1"
+      },
+      "complete": "MSLDHAKKMLEKLKTDKDLMEKVKAADNEGKKKIAEDMGLTFTAEEMKEAIKADSSLSDEDLATVAGGASGTWVAVGAGAAGAAAACGW",
+      "leader": [
+        "MSLDHAKKMLEKLKTDKDLMEKVKAADNEGKKKIAEDMGLTFTAEEMKEAIKADSSLSDEDLATVAGG"
+      ],
+      "core": [
+        "ASGTWVAVGAGAAGAAAACGW"
+      ]
+    }
+  ]
 }

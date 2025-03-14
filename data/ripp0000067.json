@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "DQ146939.1",
-            "mibig_acc": "BGC0000537"
+  "identifiers": {
+    "ncbi_acc": "DQ146939.1",
+    "mibig_acc": "BGC0000537"
+  },
+  "compound_name": [
+    "nisin U"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1128/AEM.72.2.1148-1156.2006"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ABA00878.1",
+        "uniprot": "Q2QBT0"
       },
-      "compound_name": [
-            "nisin U"
+      "complete": "MNNEDFNLDLIKISKENNSGASPRITSKSLCTPGCKTGILMTCPLKTATCGCHFG",
+      "leader": [
+        "MNNEDFNLDLIKISKENNSGASPR"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1128/AEM.72.2.1148-1156.2006"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ABA00878.1",
-                        "uniprot": "Q2QBT0"
-                  },
-                  "complete": "MNNEDFNLDLIKISKENNSGASPRITSKSLCTPGCKTGILMTCPLKTATCGCHFG",
-                  "leader": [
-                        "MNNEDFNLDLIKISKENNSGASPR"
-                  ],
-                  "core": [
-                        "ITSKSLCTPGCKTGILMTCPLKTATCGCHFG"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "ITSKSLCTPGCKTGILMTCPLKTATCGCHFG"
       ]
+    }
+  ]
 }

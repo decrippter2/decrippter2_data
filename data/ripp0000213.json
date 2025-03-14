@@ -1,31 +1,31 @@
 {
-      "identifiers": {
-            "ncbi_acc": "JXYX01000010.1",
-            "mibig_acc": "BGC0001632"
+  "identifiers": {
+    "ncbi_acc": "JXYX01000010.1",
+    "mibig_acc": "BGC0001632"
+  },
+  "compound_name": [
+    "kawaguchipeptin A"
+  ],
+  "ripp_class": "Cyanobactin",
+  "ref": [
+    "doi:10.1002/anie.201509920"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "KXS89845.1",
+        "uniprot": "A0A139GI49"
       },
-      "compound_name": [
-            "kawaguchipeptin A"
+      "complete": "MKNPTLLPKLTAPVERPAVTSSDLKQASSVDAAWLNGDNNWSTPFAGVNAAWLNGDNNWSTPFAGVNAAWLNGDNNWSTPFAADGAE",
+      "leader": [
+        "MKNPTLLPKLTAPVERPAVTSSDLKQASSVDAA"
       ],
-      "ripp_class": "Cyanobactin",
-      "ref": [
-            "doi:10.1002/anie.201509920"
+      "core": [
+        "WLNGDNNWSTP"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "KXS89845.1",
-                        "uniprot": "A0A139GI49"
-                  },
-                  "complete": "MKNPTLLPKLTAPVERPAVTSSDLKQASSVDAAWLNGDNNWSTPFAGVNAAWLNGDNNWSTPFAGVNAAWLNGDNNWSTPFAADGAE",
-                  "leader": [
-                        "MKNPTLLPKLTAPVERPAVTSSDLKQASSVDAA"
-                  ],
-                  "core": [
-                        "WLNGDNNWSTP"
-                  ],
-                  "follower": [
-                        "FAADGAE"
-                  ]
-            }
+      "follower": [
+        "FAADGAE"
       ]
+    }
+  ]
 }

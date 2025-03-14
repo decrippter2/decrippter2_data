@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "PYBV01000027.1",
-            "mibig_acc": "BGC0001473"
+  "identifiers": {
+    "ncbi_acc": "PYBV01000027.1",
+    "mibig_acc": "BGC0001473"
+  },
+  "compound_name": [
+    "Sch 18640"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1021/jacs.8b03896"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "PYC67624.1",
+        "uniprot": "A0A318NH89"
       },
-      "compound_name": [
-            "Sch 18640"
+      "complete": "MTGLDIDTLEISDYLDESMLDTHDLTETMIASASCTTCICTCSCSS",
+      "leader": [
+        "MTGLDIDTLEISDYLDESMLDTHDLTETM"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1021/jacs.8b03896"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "PYC67624.1",
-                        "uniprot": "A0A318NH89"
-                  },
-                  "complete": "MTGLDIDTLEISDYLDESMLDTHDLTETMIASASCTTCICTCSCSS",
-                  "leader": [
-                        "MTGLDIDTLEISDYLDESMLDTHDLTETM"
-                  ],
-                  "core": [
-                        "IASASCTTCICTCSCSS"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "IASASCTTCICTCSCSS"
       ]
+    }
+  ]
 }

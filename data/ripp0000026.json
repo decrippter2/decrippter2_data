@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "DQ650653.1",
-            "mibig_acc": "BGC0000494"
+  "identifiers": {
+    "ncbi_acc": "DQ650653.1",
+    "mibig_acc": "BGC0000494"
+  },
+  "compound_name": [
+    "uberolysin"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1099/mic.0.2006/005967-0"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ABG48503.1",
+        "uniprot": "A5H1G9"
       },
-      "compound_name": [
-            "uberolysin"
+      "complete": "MDILLELAGYTGIASGTAKKVVDAIDKGAAAFVIISIISTVISAGALGAVSASADFIILTVKNYISRNLKAQAVIW",
+      "leader": [
+        "MDILLE"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1099/mic.0.2006/005967-0"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ABG48503.1",
-                        "uniprot": "A5H1G9"
-                  },
-                  "complete": "MDILLELAGYTGIASGTAKKVVDAIDKGAAAFVIISIISTVISAGALGAVSASADFIILTVKNYISRNLKAQAVIW",
-                  "leader": [
-                        "MDILLE"
-                  ],
-                  "core": [
-                        "LAGYTGIASGTAKKVVDAIDKGAAAFVIISIISTVISAGALGAVSASADFIILTVKNYISRNLKAQAVIW"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "LAGYTGIASGTAKKVVDAIDKGAAAFVIISIISTVISAGALGAVSASADFIILTVKNYISRNLKAQAVIW"
       ]
+    }
+  ]
 }

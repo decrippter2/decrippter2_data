@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "QVIG01000001.1",
-            "mibig_acc": "BGC0003055"
+  "identifiers": {
+    "ncbi_acc": "QVIG01000001.1",
+    "mibig_acc": "BGC0003055"
+  },
+  "compound_name": [
+    "LanII-57B"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1038/s41467-022-33890-w"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "RGD56944.1",
+        "uniprot": "A0A372ZMY9"
       },
-      "compound_name": [
-            "LanII-57B"
+      "complete": "MSNEDIVRSWKDPETARTAPGHPVGEPDLTALSGGEEQITVYDICTTNQTGCGTCGSFSFGCC",
+      "leader": [
+        "MSNEDIVRSWKDPETARTAPGHPVGEPDLTALSGG"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1038/s41467-022-33890-w"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "RGD56944.1",
-                        "uniprot": "A0A372ZMY9"
-                  },
-                  "complete": "MSNEDIVRSWKDPETARTAPGHPVGEPDLTALSGGEEQITVYDICTTNQTGCGTCGSFSFGCC",
-                  "leader": [
-                        "MSNEDIVRSWKDPETARTAPGHPVGEPDLTALSGG"
-                  ],
-                  "core": [
-                        "EEQITVYDICTTNQTGCGTCGSFSFGCC"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "EEQITVYDICTTNQTGCGTCGSFSFGCC"
       ]
+    }
+  ]
 }

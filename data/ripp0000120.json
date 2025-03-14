@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "FJ895580.1",
-            "mibig_acc": "BGC0000590"
+  "identifiers": {
+    "ncbi_acc": "FJ895580.1",
+    "mibig_acc": "BGC0000590"
+  },
+  "compound_name": [
+    "microcin N"
+  ],
+  "ripp_class": "Microviridin",
+  "ref": [
+    "doi:10.1093/femsle/fnw095"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ACP43450.1",
+        "uniprot": "Q46971"
       },
-      "compound_name": [
-            "microcin N"
+      "complete": "MRELDREELNCVGGAGDPLADPNSQIVRQIMSNAAWGAAFGARGGLGGMAVGAAGGVTQTVLQGAAAHMPVNVPIPKVPMGPSWNGSKG",
+      "leader": [
+        "MRELDREELNCVGGA"
       ],
-      "ripp_class": "Microviridin",
-      "ref": [
-            "doi:10.1093/femsle/fnw095"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ACP43450.1",
-                        "uniprot": "Q46971"
-                  },
-                  "complete": "MRELDREELNCVGGAGDPLADPNSQIVRQIMSNAAWGAAFGARGGLGGMAVGAAGGVTQTVLQGAAAHMPVNVPIPKVPMGPSWNGSKG",
-                  "leader": [
-                        "MRELDREELNCVGGA"
-                  ],
-                  "core": [
-                        "GDPLADPNSQIVRQIMSNAAWGAAFGARGGLGGMAVGAAGGVTQTVLQGAAAHMPVNVPIPKVPMGPSWNGSKG"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "GDPLADPNSQIVRQIMSNAAWGAAFGARGGLGGMAVGAAGGVTQTVLQGAAAHMPVNVPIPKVPMGPSWNGSKG"
       ]
+    }
+  ]
 }

@@ -1,48 +1,48 @@
 {
-      "identifiers": {
-            "ncbi_acc": "MK806443.1",
-            "mibig_acc": "BGC0002485"
+  "identifiers": {
+    "ncbi_acc": "MK806443.1",
+    "mibig_acc": "BGC0002485"
+  },
+  "compound_name": [
+    "muscoride A",
+    "muscoride B"
+  ],
+  "ripp_class": "Cyanobactin",
+  "ref": [
+    "doi:10.1021/acschembio.9b00620"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "QGA72599.1",
+        "uniprot": "A0A5Q0TX65"
       },
-      "compound_name": [
-            "muscoride A",
-            "muscoride B"
+      "complete": "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPSIPSTSGV",
+      "leader": [
+        "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPS"
       ],
-      "ripp_class": "Cyanobactin",
-      "ref": [
-            "doi:10.1021/acschembio.9b00620"
+      "core": [
+        "IPSTS"
       ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "QGA72599.1",
-                        "uniprot": "A0A5Q0TX65"
-                  },
-                  "complete": "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPSIPSTSGV",
-                  "leader": [
-                        "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPS"
-                  ],
-                  "core": [
-                        "IPSTS"
-                  ],
-                  "follower": [
-                        "GV"
-                  ]
-            },
-            {
-                  "protein_ids": {
-                        "genpept": "QGA72586.1",
-                        "uniprot": "A0A5Q0TWU3"
-                  },
-                  "complete": "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPSVPTTGV",
-                  "leader": [
-                        "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPS"
-                  ],
-                  "core": [
-                        "VPTT"
-                  ],
-                  "follower": [
-                        "GV"
-                  ]
-            }
+      "follower": [
+        "GV"
       ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "QGA72586.1",
+        "uniprot": "A0A5Q0TWU3"
+      },
+      "complete": "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPSVPTTGV",
+      "leader": [
+        "MKPENQKQTRLQPKLSEPTVRVMPGIQLDLSEEELTNGGVGVGGVNASQYGGGDGGVSPS"
+      ],
+      "core": [
+        "VPTT"
+      ],
+      "follower": [
+        "GV"
+      ]
+    }
+  ]
 }

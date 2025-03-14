@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "FJ436355.1",
-            "mibig_acc": "BGC0000611"
+  "identifiers": {
+    "ncbi_acc": "FJ436355.1",
+    "mibig_acc": "BGC0000611"
+  },
+  "compound_name": [
+    "siomycin A"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1016/j.chembiol.2009.01.007"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ACN80645.1",
+        "uniprot": "C0JRW2"
       },
-      "compound_name": [
-            "siomycin A"
+      "complete": "MSTAAIVGQEIGVDGLTGLDVDALEISDYMDETLLDGEDLSVTMVSSASCTTCICTCSCSS",
+      "leader": [
+        "MSTAAIVGQEIGVDGLTGLDVDALEISDYMDETLLDGEDLSVTM"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1016/j.chembiol.2009.01.007"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "ACN80645.1",
-                        "uniprot": "C0JRW2"
-                  },
-                  "complete": "MSTAAIVGQEIGVDGLTGLDVDALEISDYMDETLLDGEDLSVTMVSSASCTTCICTCSCSS",
-                  "leader": [
-                        "MSTAAIVGQEIGVDGLTGLDVDALEISDYMDETLLDGEDLSVTM"
-                  ],
-                  "core": [
-                        "VSSASCTTCICTCSCSS"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "VSSASCTTCICTCSCSS"
       ]
+    }
+  ]
 }

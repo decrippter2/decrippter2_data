@@ -1,31 +1,27 @@
 {
-      "identifiers": {
-            "ncbi_acc": "JACJRA010000037.1",
-            "mibig_acc": "BGC0003056"
+  "identifiers": {
+    "ncbi_acc": "JACJRA010000037.1",
+    "mibig_acc": "BGC0003056"
+  },
+  "compound_name": [
+    "LanII-2E"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1038/s41467-022-33890-w"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "MBD2325180.1"
       },
-      "compound_name": [
-            "LanII-2E"
+      "complete": "MFNLDIIRAWKDENYRDSLTEAQRSQLPENPAGLIELTDEDMSSVSGGCCCGSSACSSLVHHMGVEESSTLA",
+      "leader": [
+        "MFNLDIIRAWKDENYRDSLTEAQRSQLPENPAGLIELTDEDMSSVSGG"
       ],
-      "ripp_class": "Lanthipeptide",
-      "ref": [
-            "doi:10.1038/s41467-022-33890-w"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "MBD2325180.1",
-                        "uniprot": ""
-                  },
-                  "complete": "MFNLDIIRAWKDENYRDSLTEAQRSQLPENPAGLIELTDEDMSSVSGGCCCGSSACSSLVHHMGVEESSTLA",
-                  "leader": [
-                        "MFNLDIIRAWKDENYRDSLTEAQRSQLPENPAGLIELTDEDMSSVSGG"
-                  ],
-                  "core": [
-                        "CCCGSSACSSLVHHMGVEESSTLA"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "CCCGSSACSSLVHHMGVEESSTLA"
       ]
+    }
+  ]
 }

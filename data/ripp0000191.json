@@ -1,31 +1,28 @@
 {
-      "identifiers": {
-            "ncbi_acc": "PYBW01000040.1",
-            "mibig_acc": "BGC0001474"
+  "identifiers": {
+    "ncbi_acc": "PYBW01000040.1",
+    "mibig_acc": "BGC0001474"
+  },
+  "compound_name": [
+    "thiopeptin"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1021/jacs.8b03896"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "PYC80213.1",
+        "uniprot": "A0A2V4NKT8"
       },
-      "compound_name": [
-            "thiopeptin"
+      "complete": "MSAPTEIQNLGVVGLTGLDTDTLEISDYLDESLLDEHDLTVTMVASASCTTCICTCSCSS",
+      "leader": [
+        "MSAPTEIQNLGVVGLTGLDTDTLEISDYLDESLLDEHDLTVTM"
       ],
-      "ripp_class": "Thiopeptide",
-      "ref": [
-            "doi:10.1021/jacs.8b03896"
-      ],
-      "entries": [
-            {
-                  "protein_ids": {
-                        "genpept": "PYC80213.1",
-                        "uniprot": "A0A2V4NKT8"
-                  },
-                  "complete": "MSAPTEIQNLGVVGLTGLDTDTLEISDYLDESLLDEHDLTVTMVASASCTTCICTCSCSS",
-                  "leader": [
-                        "MSAPTEIQNLGVVGLTGLDTDTLEISDYLDESLLDEHDLTVTM"
-                  ],
-                  "core": [
-                        "VASASCTTCICTCSCSS"
-                  ],
-                  "follower": [
-                        ""
-                  ]
-            }
+      "core": [
+        "VASASCTTCICTCSCSS"
       ]
+    }
+  ]
 }
