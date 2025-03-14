@@ -1,0 +1,31 @@
+{
+      "identifiers": {
+            "ncbi_acc": "AF014938.1",
+            "mibig_acc": "BGC0000558"
+      },
+      "compound_name": [
+            "sublancin 168"
+      ],
+      "ripp_class": "Lanthipeptide",
+      "ref": [
+            "doi:10.1074/jbc.273.36.23134"
+      ],
+      "entries": [
+            {
+                  "protein_ids": {
+                        "genpept": "AAC63531.1",
+                        "uniprot": "P68577"
+                  },
+                  "complete": "MEKLFKEVKLEELENQKGSGLGKAQCAALWLQCASGGTIGCGGGAVACQNYRQFCR",
+                  "leader": [
+                        "MEKLFKEVKLEELENQKGS"
+                  ],
+                  "core": [
+                        "GLGKAQCAALWLQCASGGTIGCGGGAVACQNYRQFCR"
+                  ],
+                  "follower": [
+                        ""
+                  ]
+            }
+      ]
+}
