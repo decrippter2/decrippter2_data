@@ -127,6 +127,7 @@ import argparse
 import json
 import logging
 import sys
+from collections.abc import Generator
 from importlib import metadata
 from pathlib import Path
 
@@ -238,7 +239,7 @@ def setup_cli(arguments: list) -> argparse.Namespace:
     return parser.parse_args(arguments)
 
 
-def main(files: list | tuple = ()) -> None:
+def main(files: list | tuple | Generator = ()) -> None:
     """Validate input files against json schema
 
     Arguments:
@@ -260,11 +261,17 @@ def main(files: list | tuple = ()) -> None:
     exit(0)
 
 
-def entrypoint():
+def entrypoint_cicd():
+    """Entrypoint for the GitHub CICD validation to test all entries"""
+    data = Path(__file__).parent.parent.parent.joinpath("data")
+    main(data.iterdir())
+
+
+def entrypoint_script():
     """Entrypoint for pyproject project:scripts"""
     args = setup_cli(sys.argv[1:])
     main(args.i)
 
 
 if __name__ == "__main__":
-    entrypoint()
+    entrypoint_script()
