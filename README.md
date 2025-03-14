@@ -3,8 +3,10 @@ decrippter2_data
 
 **TBA: ADD ZENODO DOI HANDLE**
 
-This repository contains data on RiPP precursor peptides used for the training of the decRiPPter2 software.
+This repository contains data on RiPP precursor peptides.
 The dataset summarizes knowledge about of experimentally validated (true-positive) RiPP precursor peptides, including their cleavage sites.
+
+This dataset was used in the training of the decRiPPter2 classifier, but can be used by any other project.
 
 The basis of this dataset was sourced from MIBiG (Minimum Information about a Biosynthetic Gene Cluster), cleaned, gap-filled, and structured using a JSON schema also available through this repository. 
 
@@ -35,11 +37,6 @@ Each data entry describes a RiPP BGC, containing:
 - (optional) database cross-references to the BGC
 - (optional) the compound name of the mature RiPP product(s)
 - (optional) the RiPP class (controlled vocabulary)
-
-### Graphical representation
-
-TBA: A SVG of the JSON Schema
-
 
 ## For Contributors
 
