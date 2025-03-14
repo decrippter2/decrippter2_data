@@ -1,13 +1,16 @@
 decrippter2_data
 =======
 
+**TBA: ADD ZENODO DOI HANDLE**
+
 This repository contains data on RiPP precursor peptides used for the training of the decRiPPter2 software.
 The dataset summarizes knowledge about of experimentally validated (true-positive) RiPP precursor peptides, including their cleavage sites.
 
 The basis of this dataset was sourced from MIBiG (Minimum Information about a Biosynthetic Gene Cluster), cleaned, gap-filled, and structured using a JSON schema also available through this repository. 
 
-The aim of this dataset it to make data on RiPP precursor peptides freely available, FAIR, and sustainable.
-Please consider contributing RiPP precursor data as it becomes available!
+The aim of this dataset it to make data on RiPP precursor peptides **freely available**, **FAIR**, and **sustainably maintained**.
+
+**Please consider contributing RiPP precursor data and growing the data repository!**
 
 For more information, see the [DecRiPPter2 Organization page](https://github.com/decrippter2).
 
@@ -18,9 +21,24 @@ Their biosynthesis involves a precursor peptide, which is modified by a number o
 RiPP classes are defined by the biosynthetic logic of their tailoring enzymes and are therefor rarely homologous.
 This makes rule-based discovery of new RiPP classes challenging and favours machine learning-based approaches.
 
-## Data Model Content
+## Data Model
 
-TBA
+This dataset reports RiPP precursor peptide data in a structured, machine- and human-readable format. 
+Most importantly, the provenance of the sequences is documented by providing a reference to the original publication.
+
+### Content
+
+Each data entry contains:
+
+- A
+- B
+- C
+- D
+
+### Graphical representation
+
+TBA: A SVG of the JSON Schema
+
 
 ## For Contributors
 
@@ -29,7 +47,8 @@ TBA
 Thank you for considering to contribute to this dataset! We are always welcoming experimental data on precursor peptides. Please consider the following conditions:
 
 - RiPP precursors must be experimentally validated (no predictions)
-- 
+- TBA
+- ...
 
 For the technical aspects of contributing, see [CONTRIBUTING](CONTRIBUTING.md).
 
@@ -39,10 +58,19 @@ For the technical aspects of contributing, see [CONTRIBUTING](CONTRIBUTING.md).
 
 Data validation is automatically triggered upon a pull request via GitHub Actions. If you want to trigger it manually, please take the following steps.
 
-
-
+- Install `hatch` using one of the methods described [here](https://hatch.pypa.io/1.12/install/)
+- Download or clone this repository
+- Run `hatch -v env create`. This will download and install the appropriate Python version and any required packages
+- Run the data validation on a single or multiple files using `hatch run d2_validate -i [input1.json input2.json ... inputN.json ]`
 
 ### Code contributions
 
 #### Installation
+
+- Install `hatch` using one of the methods described [here](https://hatch.pypa.io/1.12/install/)
+- Download or clone this repository
+- Run `hatch -v env create`. This will download and install the appropriate Python version and any required packages
+- Run `hatch run pre-commit install`. This will set up `pre-commit`
+- Run the tests with `hatch run pytest`
+- If necessary, remove the environment with `hatch env remove dev`
 

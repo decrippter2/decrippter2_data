@@ -26,13 +26,13 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Chemistry"
 ]
 dependencies = [
-    "pre-commit~=3.4",
-    "pytest~=7.4",
-    "ruff~=0.5",
     "argparse~=1.4",
     "coloredlogs~=15.0",
     "jsonschema~=4.23",
     "pydantic~=2.8",
+    "pre-commit~=3.4",
+    "pytest~=7.4",
+    "ruff~=0.5",
 ]
 
 [project.urls]
@@ -41,7 +41,7 @@ Homepage = "https://github.com/decrippter2/mite_schema"
 Issues = "https://github.com/decrippter2/mite_schema/issues"
 
 [project.scripts]
-decrippter2_data = "decrippter2_data.main:main"
+d2_validate = "decrippter2_data.main:main"
 
 [tool.pytest.ini_options]
 minversion = "6.0"
