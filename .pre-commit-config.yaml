@@ -17,3 +17,10 @@ repos:
       entry: hatch run pytest tests/
       language: system
       types: [ file, python ]
+    - id: validation
+      name: validation
+      entry: hatch run d2_validate -i
+      language: system
+      types:
+        - json
+      exclude: schema
