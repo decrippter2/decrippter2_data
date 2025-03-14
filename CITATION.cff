@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: RiPP Precursor Peptide Training Dataset (decRiPPter2)
+message: >-
+  If you use the data from this repository, please consider
+  citing our work!
+type: dataset
+authors:
+  - given-names: Mitja M.
+    family-names: Zdouc
+    email: zdoucmm@gmail.com
+    orcid: 'https://orcid.org/0000-0001-6534-6609'
+  - given-names: Roman
+    family-names: Sanz Alchu
+  - given-names: Marnix H.
+    family-names: Medema
+    email: marnix.medema@wur.nl
+    orcid: 'https://orcid.org/0000-0002-2191-2821'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15026847
+    description: ZENODO Repository DOI
+repository-code: 'https://github.com/decrippter2/decrippter2_data'
+url: 'https://github.com/decrippter2'
+abstract: >-
+  The dataset summarizes knowledge about of experimentally
+  validated (true-positive) RiPP precursor peptides,
+  including their cleavage sites. This dataset was used in
+  the training of the decRiPPter2 classifier, but can be
+  used by any other project.
+keywords:
+  - RiPPs
+  - >-
+    ribosomally synthesized and post-translationally
+    modified peptides
+  - precursor peptide
+  - genomics
+  - natural products
+  - metabolites
+  - secondary metabolites
+  - antibiotics
+  - machine learning
+  - decrippter
+  - training dataset
+license: CC0-1.0

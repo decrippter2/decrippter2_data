@@ -1,7 +1,7 @@
 decrippter2_data
 =======
 
-**TBA: ADD ZENODO DOI HANDLE**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15026847.svg)](https://doi.org/10.5281/zenodo.15026847)  
 
 This repository contains data on RiPP precursor peptides.
 The dataset summarizes knowledge about of experimentally validated (true-positive) RiPP precursor peptides, including their cleavage sites.
