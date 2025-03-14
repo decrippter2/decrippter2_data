@@ -28,12 +28,13 @@ Most importantly, the provenance of the sequences is documented by providing a r
 
 ### Content
 
-Each data entry contains:
+Each data entry describes a RiPP BGC, containing:
 
-- A
-- B
-- C
-- D
+- ≥ 1 entry for a precursor peptide
+- ≥ 1 literature reference
+- (optional) database cross-references to the BGC
+- (optional) the compound name of the mature RiPP product(s)
+- (optional) the RiPP class (controlled vocabulary)
 
 ### Graphical representation
 
@@ -47,8 +48,7 @@ TBA: A SVG of the JSON Schema
 Thank you for considering to contribute to this dataset! We are always welcoming experimental data on precursor peptides. Please consider the following conditions:
 
 - RiPP precursors must be experimentally validated (no predictions)
-- TBA
-- ...
+- At least one literature reference must be provided
 
 For the technical aspects of contributing, see [CONTRIBUTING](CONTRIBUTING.md).
 

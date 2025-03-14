@@ -14,6 +14,6 @@ repos:
   hooks:
     - id: pytest
       name: pytest
-      entry: hatch run dev:pytest tests/
+      entry: hatch run pytest tests/
       language: system
       types: [ file, python ]

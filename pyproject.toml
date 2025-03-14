@@ -41,7 +41,7 @@ Homepage = "https://github.com/decrippter2/mite_schema"
 Issues = "https://github.com/decrippter2/mite_schema/issues"
 
 [project.scripts]
-d2_validate = "decrippter2_data.main:main"
+d2_validate = "decrippter2_data.main:entrypoint"
 
 [tool.pytest.ini_options]
 minversion = "6.0"
@@ -50,7 +50,7 @@ testpaths = [
     "tests",
 ]
 pythonpath = [
-  "mite_schema"
+  "src/decrippter2_data"
 ]
 
 [tool.ruff.lint]
