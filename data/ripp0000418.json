@@ -1,0 +1,17 @@
+{
+  "compound_name": [
+    "YydF"
+  ],
+  "ripp_class": "Epipeptide",
+  "ref": [
+    "doi:10.1038/nchem.2714"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_003226979.1"
+      },
+      "complete": "MKKEITNNETVKNLEFKGLLDESQKLAKVNDLWYFVKSKENRWILGSGH"
+    }
+  ]
+}

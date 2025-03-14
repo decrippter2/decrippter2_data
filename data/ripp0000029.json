@@ -1,0 +1,42 @@
+{
+  "identifiers": {
+    "ncbi_acc": "DQ145752.1",
+    "mibig_acc": "BGC0000497"
+  },
+  "compound_name": [
+    "BHT-AÎ±",
+    "BHT-AÎ²"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1016/j.femsle.2005.09.003"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "AAZ76603.1",
+        "uniprot": "Q3YB75"
+      },
+      "complete": "MKEIQKAGLQEELSILMDDANNLEQLTAGIGTTVVNSTFSIVLGNKGYICTVTVECMRNCQ",
+      "leader": [
+        "MKEIQKAGLQEELSILMDDANNLEQLTAG"
+      ],
+      "core": [
+        "IGTTVVNSTFSIVLGNKGYICTVTVECMRNCQ"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "AAZ76602.1",
+        "uniprot": "Q3YB76"
+      },
+      "complete": "MKSNLLKINNVTEVEKDMVTLIKDEDMELAGGSTPACAIGVVGITVAVTGISTACTSRCINK",
+      "leader": [
+        "MKSNLLKINNVTEVEKDMVTLIKDEDMELAGG"
+      ],
+      "core": [
+        "STPACAIGVVGITVAVTGISTACTSRCINK"
+      ]
+    }
+  ]
+}

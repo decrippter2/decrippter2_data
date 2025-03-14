@@ -1,0 +1,28 @@
+{
+  "identifiers": {
+    "ncbi_acc": "AL009126.3",
+    "mibig_acc": "BGC0000601"
+  },
+  "compound_name": [
+    "sporulation killing factor"
+  ],
+  "ripp_class": "Sactipeptide",
+  "ref": [
+    "doi:10.1074/jbc.RA118.005369"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "CAB11984.1",
+        "uniprot": "O31422"
+      },
+      "complete": "MKRNQKEWESVSKKGLMKPGGTSIVKAAGCMGCWASKSIAMTRVCALPHPAMRAI",
+      "leader": [
+        "MKRNQKEWESVSKKGLMKPGGTSIVKAAG"
+      ],
+      "core": [
+        "CMGCWASKSIAMTRVCALPHPAMRAI"
+      ]
+    }
+  ]
+}

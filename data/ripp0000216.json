@@ -1,0 +1,27 @@
+{
+  "identifiers": {
+    "ncbi_acc": "NGTK01000002.1",
+    "mibig_acc": "BGC0001639"
+  },
+  "compound_name": [
+    "klebsidin"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1021/acschembio.6b01154"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "OUH62395.1"
+      },
+      "complete": "MMQQKKNDQKKVTLKKLNKKASKVTRGSDGPIIEFFNPNGVMHYG",
+      "leader": [
+        "MMQQKKNDQKKVTLKKLNKKASKVTR"
+      ],
+      "core": [
+        "GSDGPIIEFFNPNGVMHYG"
+      ]
+    }
+  ]
+}

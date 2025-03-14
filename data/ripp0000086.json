@@ -1,0 +1,28 @@
+{
+  "identifiers": {
+    "ncbi_acc": "AB030831.1",
+    "mibig_acc": "BGC0000556"
+  },
+  "compound_name": [
+    "streptin"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1093/oxfordjournals.jbchem.a002918"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BAB08162.1",
+        "uniprot": "P0C0H8"
+      },
+      "complete": "MNNTIKDFDLDLKTNKKDTATPYVGSRYLCTPGSCWKLVCFTTTVK",
+      "leader": [
+        "MNNTIKDFDLDLKTNKKDTATPY"
+      ],
+      "core": [
+        "VGSRYLCTPGSCWKLVCFTTTVK"
+      ]
+    }
+  ]
+}

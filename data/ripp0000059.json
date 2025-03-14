@@ -1,0 +1,28 @@
+{
+  "identifiers": {
+    "ncbi_acc": "HM536998.1",
+    "mibig_acc": "BGC0000529"
+  },
+  "compound_name": [
+    "microbisporicin A2"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1016/j.chembiol.2007.11.009"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ADK32554.1",
+        "uniprot": "E2IHB6"
+      },
+      "complete": "MPADILETRTSETEDLLDLDLSIGVEEITAGPAVTSWSLCTPGCTSPGGGSNCSFCC",
+      "leader": [
+        "MPADILETRTSETEDLLDLDLSIGVEEITAGPA"
+      ],
+      "core": [
+        "VTSWSLCTPGCTSPGGGSNCSFCC"
+      ]
+    }
+  ]
+}

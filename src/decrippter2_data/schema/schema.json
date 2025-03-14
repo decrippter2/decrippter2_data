@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "ref",
+    "entries"
+  ],
+  "properties": {
+    "identifiers": {
+      "title": "RiPP BGC identifier cross-references",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ncbi_acc": {
+          "title": "NCBI Genome accession",
+          "type": "string"
+        },
+        "mibig_acc": {
+          "title": "MIBiG BGC accession",
+          "$ref": "#/$defs/mibig"
+        }
+      }
+    },
+    "compound_name": {
+      "title": "Trivial names and synonyms of mature RiPP resulting from precursors",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ripp_class":  {
+      "title": "RiPP class name",
+      "$ref": "#/$defs/class"
+    },
+    "ref": {
+      "title": "References in DOI format",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/citation"
+      }
+    },
+    "entries": {
+      "title": "List of peptide identifiers and composition",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "complete"
+        ],
+        "properties": {
+          "protein_ids": {
+            "title": "Collection of protein identifiers",
+            "type": "object",
+            "properties": {
+              "genpept": {
+                "title": "Genpept protein accession",
+                "$ref": "#/$defs/genpept"
+              },
+              "uniprot": {
+                "title": "UniProt accession",
+                "$ref": "#/$defs/uniprot"
+              }
+            }
+          },
+          "complete": {
+            "title": "Complete precursor sequence",
+            "type": "string"
+          },
+          "leader": {
+            "title": "Leader peptide sequences",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "core": {
+            "title": "Core peptide sequences",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "follower": {
+            "title": "Follower peptide sequences",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "citation": {
+      "type": "string",
+      "pattern": "^doi:10\\."
+    },
+    "uniprot": {
+      "title": "Uniprot ID reference.",
+      "type": "string",
+      "pattern": "^[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}$"
+    },
+    "genpept": {
+      "title": "GenBank GenPept ID (= protein ID, GenBank gene products)",
+      "type": "string"
+    },
+    "mibig": {
+      "title": "MIBiG ID reference",
+      "type": "string",
+      "pattern": "^BGC\\d{7}$"
+    },
+    "class": {
+      "type": "string",
+      "enum": [
+        "AIP",
+        "Amatoxin",
+        "Bacteriocin",
+        "Borosin",
+        "Bottromycin",
+        "Crocagin",
+        "Cyanobactin",
+        "Cyclotide",
+        "Cyptide",
+        "Dikaritin",
+        "Epipeptide",
+        "Glycocin",
+        "Graspetide",
+        "Guanidinotide",
+        "Head-to-tail cyclized peptide",
+        "Lanthipeptide",
+        "Lasso",
+        "Linaridin",
+        "Linear azole-containing peptide",
+        "Lyciumin",
+        "Methanobactin",
+        "Microcin",
+        "Microviridin",
+        "Mycofactocin",
+        "N-Formylated TBA",
+        "other",
+        "Pantocin",
+        "Pearlin",
+        "Proteusin",
+        "Ranthipeptide",
+        "Rotapeptide",
+        "Ryptide",
+        "Sactipeptide",
+        "Selidamide",
+        "Streptide",
+        "Sulfatyrotide",
+        "TBA",
+        "Thioamitide",
+        "Thiopeptide",
+        "Ustiloxin"
+      ]
+    }
+  }
+}

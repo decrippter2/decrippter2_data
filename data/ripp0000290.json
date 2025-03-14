@@ -1,0 +1,28 @@
+{
+  "identifiers": {
+    "ncbi_acc": "CP058905.1",
+    "mibig_acc": "BGC0002353"
+  },
+  "compound_name": [
+    "Sch40832"
+  ],
+  "ripp_class": "Thiopeptide",
+  "ref": [
+    "doi:10.1021/jacs.1c05956"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "QLJ99538.1",
+        "uniprot": "A0A7D5Y6F9"
+      },
+      "complete": "MDANATTVGVDGLTGLDIDTFEIGDYLDETVLDTADLTETMTSSSSCTTCICTCSCSS",
+      "leader": [
+        "MDANATTVGVDGLTGLDIDTFEIGDYLDETVLDTADLTETM"
+      ],
+      "core": [
+        "TSSSSCTTCICTCSCSS"
+      ]
+    }
+  ]
+}

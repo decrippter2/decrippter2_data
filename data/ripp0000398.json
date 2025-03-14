@@ -1,0 +1,55 @@
+{
+  "identifiers": {
+    "ncbi_acc": "AJJQ00000000.1",
+    "mibig_acc": "BGC0003098"
+  },
+  "compound_name": [
+    "LAS-1009",
+    "LAS-1010",
+    "LAS-917"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1038/s41564-023-01524-6"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_157769145.1"
+      },
+      "complete": "MYTKAQLTRLGSFEEATHGWFWGSYRDIFGALRGPNSGFEGGGGFTGGGVSGGSW",
+      "leader": [
+        "MYTKAQLTRLGSFEEATH"
+      ],
+      "core": [
+        "GWFWGSYRDIFGALRGPNSGFEGGGGFTGGGVSGGSW"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "EID50813.1",
+        "uniprot": "I0USG0"
+      },
+      "complete": "MYIKPEFKKISSFAHITRGWLWGSYRDVYGVWHGPRTNFNGAGGSSEW",
+      "leader": [
+        "MYIKPEFKKISSFAHITR"
+      ],
+      "core": [
+        "GWLWGSYRDVYGVWHGPRTNFNGAGGSSEW"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "EID50715.1",
+        "uniprot": "I0US62"
+      },
+      "complete": "MYIKARFMKMNSFADCTHGLIYGKYRDVLSGARLVTPPEVAL",
+      "leader": [
+        "MYIKARFMKMNSFADCTH"
+      ],
+      "core": [
+        "GLIYGKYRDVLSGARLVTPPEVAL"
+      ]
+    }
+  ]
+}

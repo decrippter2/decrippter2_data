@@ -1,0 +1,54 @@
+{
+  "identifiers": {
+    "ncbi_acc": "NZ_KB235920.1",
+    "mibig_acc": "BGC0001745"
+  },
+  "compound_name": [
+    "PlpA1",
+    "PlpA2",
+    "PlpA3"
+  ],
+  "ripp_class": "Proteusin",
+  "ref": [
+    "doi:10.1002/anie.201400478",
+    "doi:10.1126/science.aao0157"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_019503884.1"
+      },
+      "complete": "MENQQGANQNSQKSRTEIEATLVAKAWQNDDFRQELMSNPRKVFASEFNQEIPESTNIQVLEESNDTYYLVIPKKPDVSEELSDEALEAIAGGWYFVTNDDEGAIVGSDSN",
+      "leader": [
+        "MENQQGANQNSQKSRTEIEATLVAKAWQNDDFRQELMSNPRKVFASEFNQEIPESTNIQVLEESNDTYYLVIPKKPDVSEELSDEALEAIAGG"
+      ],
+      "core": [
+        "WYFVTNDDEGAIVGSDSN"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WP_019503881.1"
+      },
+      "complete": "MSIENAKSFYERVSTDKQFRTQLENTASAEERQKIIQAAGFEFTNQEWEIAKEQILATSESNNGELSEAELTAVSGGVDLSIFELLDEEPLFPIRPLYGLPI",
+      "leader": [
+        "MSIENAKSFYERVSTDKQFRTQLENTASAEERQKIIQAAGFEFTNQEWEIAKEQILATSESNNGELSEAELTAVSGG"
+      ],
+      "core": [
+        "VDLSIFELLDEEPLFPIRPLYGLPI"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WP_019503882.1"
+      },
+      "complete": "MSIESAKAFYQRMTDDASFRTPFEAELSKEERQQLIKDSGYDFTAEEWQQAMTEIQAARSNEELNEEELEAIAGGAVAAMYGVVFPWDNEFPWPRWGG",
+      "leader": [
+        "MSIESAKAFYQRMTDDASFRTPFEAELSKEERQQLIKDSGYDFTAEEWQQAMTEIQAARSNEELNEEELEAIAGG"
+      ],
+      "core": [
+        "AVAAMYGVVFPWDNEFPWPRWGG"
+      ]
+    }
+  ]
+}

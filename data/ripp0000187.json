@@ -1,0 +1,39 @@
+{
+  "identifiers": {
+    "ncbi_acc": "ADFM01000043.1",
+    "mibig_acc": "BGC0001407"
+  },
+  "compound_name": [
+    "bicereucin"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.1021/jacs.6b02513"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EFI65095.1"
+      },
+      "complete": "MTNEEIIVAWKNPKVRGKNMPSHPSGVGFQELSINEMAQVTGGAVEQRATPTLATPLTPHTPYATYVVSGGVVSAISGIFSNNKTCLG",
+      "leader": [
+        "MTNEEIIVAWKNPKVRGKNMPSHPSGVGFQELSINEMAQVTGGAVE"
+      ],
+      "core": [
+        "QRATPTLATPLTPHTPYATYVVSGGVVSAISGIFSNNKTCLG"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "EFI65094.1"
+      },
+      "complete": "MTNEEIIVAWKNPKVRGKNMPSHPSGVGFQELSINEMAQVTGGAVEQRATPATPATPWLIKASYVVSGAGVSFVASYITVN",
+      "leader": [
+        "MTNEEIIVAWKNPKVRGKNMPSHPSGVGFQELSINEMAQVTGGAVE"
+      ],
+      "core": [
+        "QRATPATPATPWLIKASYVVSGAGVSFVASYITVN"
+      ]
+    }
+  ]
+}

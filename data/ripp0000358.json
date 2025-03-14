@@ -1,0 +1,27 @@
+{
+  "identifiers": {
+    "ncbi_acc": "NZ_KI632511.1",
+    "mibig_acc": "BGC0002954"
+  },
+  "compound_name": [
+    "Triceptide (FwwB) note: structure show here was a trypsin digested fragment"
+  ],
+  "ripp_class": "other",
+  "ref": [
+    "doi:10.1021/acschembio.2c00621"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_034267136.1"
+      },
+      "complete": "MTILQELAASDAPQLLQLIADGATDAPAPIMAGFDNRPTWDNKGGSFDNRPSWDNWSKK",
+      "leader": [
+        "MTILQELAASDAPQLLQLIADGATDAPAPIMAG"
+      ],
+      "core": [
+        "FDNRPTWDNKGGSFDNRPSWDNWSKK"
+      ]
+    }
+  ]
+}

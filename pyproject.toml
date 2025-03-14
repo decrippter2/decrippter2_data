@@ -1,36 +1,57 @@
-[project]
-name = "modern_python"
-version = "1.0.1"
-description = "Example repository demonstrating a modern Python project setup"
-readme = "README.md"
-requires-python = ">=3.12"
-license-files = { paths = ["LICENSE"] }
-authors = [
-    { name = "Your Name Here", email = "your@name.com" }
-]
-
-dependencies = [
-    "coloredlogs~=15.0.1",
-]
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[project.scripts]
-modern_python = "modern_python.main:main"
-
-[project.optional-dependencies]
-dev = [
-    "black~=24.4.2",
-    "pre-commit~=3.4.0",
-    "pytest~=7.4.2",
-    "ruff~=0.5.0"
+[project]
+name = "decrippter2_data"
+version = "0.1.0"
+description = "Containing the decRiPPter data, data schema, and validation methods"
+readme = "README.md"
+requires-python = ">=3.11"
+license-files = { paths = ["LICENSE"] }
+authors = [
+    { name = "Mitja M. Zdouc", email = "zdoucmm@gmail.com" },
+    { name = "Roman Sanz Alchu" }
+]
+keywords = [
+    "cheminformatics",
+    "genomics"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Development Status :: 4 - Beta",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Chemistry"
+]
+dependencies = [
+    "argparse~=1.4",
+    "coloredlogs~=15.0",
+    "jsonschema~=4.23",
+    "pydantic~=2.8",
+    "pre-commit~=3.4",
+    "pytest~=7.4",
+    "ruff~=0.5",
 ]
 
-[tool.hatch.envs.dev]
-features = [
-    "dev"
+[project.urls]
+Organization = "https://github.com/decrippter2/"
+Homepage = "https://github.com/decrippter2/mite_schema"
+Issues = "https://github.com/decrippter2/mite_schema/issues"
+
+[project.scripts]
+d2_validate = "decrippter2_data.main:entrypoint_script"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+pythonpath = [
+  "src/decrippter2_data"
 ]
 
 [tool.ruff.lint]
@@ -63,9 +84,8 @@ select = [
 ignore = [
     # whitespace-before-punctuation
     "E203",
+    # percent-format-invalid-format
+    "E501",
+    # mixed-case-variable-in-class-scope
+    "N815"
 ]
-
-[tool.mypy]
-exclude= 'tests'
-strict = true
-ignore_missing_imports = true

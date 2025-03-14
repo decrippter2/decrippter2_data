@@ -1,0 +1,27 @@
+{
+  "identifiers": {
+    "ncbi_acc": "LC381634.1",
+    "mibig_acc": "BGC0002981"
+  },
+  "compound_name": [
+    "Lasso peptide MS-271"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1039/D0SC06308H"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BBD82040.1"
+      },
+      "complete": "MSAIYEPPMLQEVGDFEELTKCLGVGSCNDFAGCGYAIVCFW",
+      "leader": [
+        "MSAIYEPPMLQEVGDFEELTK"
+      ],
+      "core": [
+        "CLGVGSCNDFAGCGYAIVCFW"
+      ]
+    }
+  ]
+}

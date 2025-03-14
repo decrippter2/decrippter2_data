@@ -1,0 +1,42 @@
+{
+  "identifiers": {
+    "ncbi_acc": "AP003088.1",
+    "mibig_acc": "BGC0000555"
+  },
+  "compound_name": [
+    "staphylococcin C55 Î±",
+    "staphylococcin C55 Î²"
+  ],
+  "ripp_class": "Lanthipeptide",
+  "ref": [
+    "doi:10.2174/138920109787048580"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "BAB78439.1",
+        "uniprot": "Q9S4D2"
+      },
+      "complete": "MKNELGKFLEENELELGKFSESDMLEITDDEVYAAGTPLALLGGAATGVIGYISNQTCPTTACTRAC",
+      "leader": [
+        "MKNELGKFLEENELELGKFSESDMLEITDDEVYAA"
+      ],
+      "core": [
+        "GTPLALLGGAATGVIGYISNQTCPTTACTRAC"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "BAB78438.1",
+        "uniprot": "Q9S4D3"
+      },
+      "complete": "MKSSFLEKDIEEQVTWFEEVSEQEFDDDIFGACSTNTFSLSDYWGNKGNWCTATHECMSWCK",
+      "leader": [
+        "MKSSFLEKDIEEQVTWFEEVSEQEFDDDIFGA"
+      ],
+      "core": [
+        "CSTNTFSLSDYWGNKGNWCTATHECMSWCK"
+      ]
+    }
+  ]
+}

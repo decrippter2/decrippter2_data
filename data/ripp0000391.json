@@ -1,0 +1,63 @@
+{
+  "identifiers": {
+    "ncbi_acc": "AUMU01000002.1",
+    "mibig_acc": "BGC0003071"
+  },
+  "compound_name": [
+    "chryseoviridin"
+  ],
+  "ripp_class": "Graspetide",
+  "ref": [
+    "doi:10.1021/jacs.1c02316"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_027385891.1"
+      },
+      "complete": "MENRKSKKPFFASFLEKQIEDPEKIKGGAVTSALVDNVTSVNKDNVTSSLLDHVTKPGGDNVTMKYPSDGDEDGNAV",
+      "leader": [
+        "MENRKSKKPFFASFLEKQIEDPEKIKGG"
+      ],
+      "core": [
+        "AVTSALVDNVTSVNKDNVTSSLLDHVTKPGGDNVTMKYPSDGDEDGNAV"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WP_027385892.1"
+      },
+      "complete": "MKNKDSKKKPFFASFLEKQIQDPEKIKGGSGDITTGVLKDSVTSALVDNITKPGQDVVSMKYPSDSDEDGDPV",
+      "leader": [
+        "MKNKDSKKKPFFASFLEKQIQDPEKIKGG"
+      ],
+      "core": [
+        "SGDITTGVLKDSVTSALVDNITKPGQDVVSMKYPSDSDEDGDPV"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WP_027385893.1"
+      },
+      "complete": "MKNKNSKKEPFFAAFLEKQLQDPEKIQGGGVSTSLKDVVTSPLGDTLTLKTLDNGTTPAADTPVTLKYPSDSDEGGFDPGFPPGLDPEIHP",
+      "leader": [
+        "MKNKNSKKEPFFAAFLEKQLQDPEKIQGG"
+      ],
+      "core": [
+        "GVSTSLKDVVTSPLGDTLTLKTLDNGTTPAADTPVTLKYPSDSDEGGFDPGFPPGLDPEIHP"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "WP_027385894.1"
+      },
+      "complete": "MKSKDSKKKPFFASFLEKQIQDPEKVKGGTEVTLSTQDNITKPLYDTVTKPTLDMMQTMKYPSDGDDDAPVV",
+      "leader": [
+        "MKSKDSKKKPFFASFLEKQIQDPEKVKGG"
+      ],
+      "core": [
+        "TEVTLSTQDNITKPLYDTVTKPTLDMMQTMKYPSDGDDDAPVV"
+      ]
+    }
+  ]
+}

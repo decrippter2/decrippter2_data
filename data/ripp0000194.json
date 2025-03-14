@@ -1,0 +1,28 @@
+{
+  "identifiers": {
+    "ncbi_acc": "ATGG01000011.1",
+    "mibig_acc": "BGC0001494"
+  },
+  "compound_name": [
+    "acinetodin"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1021/acschembio.6b01154"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EPF88081.1",
+        "uniprot": "A0A829HK39"
+      },
+      "complete": "MKNLNKMFKKEQKYHKQLKVISVKGSASKMTLGGKGPIFETWVTEGNYYG",
+      "leader": [
+        "MKNLNKMFKKEQKYHKQLKVISVKGSASKMTL"
+      ],
+      "core": [
+        "GGKGPIFETWVTEGNYYG"
+      ]
+    }
+  ]
+}

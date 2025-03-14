@@ -1,0 +1,29 @@
+{
+  "identifiers": {
+    "ncbi_acc": "MN231270.1",
+    "mibig_acc": "BGC0002580"
+  },
+  "compound_name": [
+    "lactococcin MN"
+  ],
+  "ripp_class": "TBA",
+  "ref": [
+    "doi:10.1128/aem.57.2.492-498.1991"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "QIC51115.1",
+        "uniprot": "A0A1V0NWY2"
+      },
+      "complete": "MKNQLNFEILSDEELQGINGGIRGTGKGLAAAMVSGAAMGGAIGAFGGPVGAIMGAWGGAVGGAMKYSI"
+    },
+    {
+      "protein_ids": {
+        "genpept": "QIC51116.1",
+        "uniprot": "A0A1V0NWZ0"
+      },
+      "complete": "MKKDEANTFKEYSSSFAIVTDEELENINGSGSIWGAIAGGAVKGAIAASWTGNPVGIGMSALGGAVLGGVTYARPVH"
+    }
+  ]
+}

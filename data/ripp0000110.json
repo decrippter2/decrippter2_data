@@ -1,0 +1,40 @@
+{
+  "identifiers": {
+    "ncbi_acc": "AEQX01000392.1",
+    "mibig_acc": "BGC0000580"
+  },
+  "compound_name": [
+    "xanthomonin II",
+    "xanthomonin I"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1002/anie.201309267"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "EGD17354.1"
+      },
+      "complete": "MNSNDTTHSDASNEITVLGVASTDTKGGPLAGEEIGGFNVPGISEE",
+      "leader": [
+        "MNSNDTTHSDASNEITVLGVASTDTK"
+      ],
+      "core": [
+        "GGPLAGEEIGGFNVPGISEE"
+      ]
+    },
+    {
+      "protein_ids": {
+        "genpept": "EGD17355.1"
+      },
+      "complete": "MDTSNNDARTTALDQDLIVLGVASLDTQGGPLAGEEMGGITTLGISQD",
+      "leader": [
+        "MDTSNNDARTTALDQDLIVLGVASLDTQ"
+      ],
+      "core": [
+        "GGPLAGEEMGGITTLGISQD"
+      ]
+    }
+  ]
+}

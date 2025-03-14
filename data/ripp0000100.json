@@ -1,0 +1,28 @@
+{
+  "identifiers": {
+    "ncbi_acc": "CP002395.1",
+    "mibig_acc": "BGC0000570"
+  },
+  "compound_name": [
+    "astexin-1"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1016/j.chembiol.2013.03.013"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ADU13884.1",
+        "uniprot": "E8RMD3"
+      },
+      "complete": "MHTPIISETVQPKTAGLIVLGKASAETRGLSQGVEPDIGQTYFEESRINQD",
+      "leader": [
+        "MHTPIISETVQPKTAGLIVLGKASAETR"
+      ],
+      "core": [
+        "GLSQGVEPDIGQTYFEESRINQD"
+      ]
+    }
+  ]
+}

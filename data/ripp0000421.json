@@ -1,0 +1,20 @@
+{
+  "identifiers": {
+    "ncbi_acc": "CP002465.1"
+  },
+  "compound_name": [
+    "tqqA"
+  ],
+  "ripp_class": "Rotapeptide",
+  "ref": [
+    "doi:10.1021/jacs.9b05151"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "ADV71007.1"
+      },
+      "complete": "MSVIEFKKLSSKLLKVSKIETLSGCGTKRTQQTKGWY"
+    }
+  ]
+}

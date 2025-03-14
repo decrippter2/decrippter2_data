@@ -1,0 +1,27 @@
+{
+  "identifiers": {
+    "ncbi_acc": "NZ_KL591029.1",
+    "mibig_acc": "BGC0001645"
+  },
+  "compound_name": [
+    "lagmysin"
+  ],
+  "ripp_class": "Lasso",
+  "ref": [
+    "doi:10.1038/nchembio.2319"
+  ],
+  "entries": [
+    {
+      "protein_ids": {
+        "genpept": "WP_107064568.1"
+      },
+      "complete": "MTMAYERPTLTKVGDFQKVTGLAGQGSPDLLGGHSLL",
+      "leader": [
+        "MTMAYERPTLTKVGDFQKVTG"
+      ],
+      "core": [
+        "LAGQGSPDLLGGHSLL"
+      ]
+    }
+  ]
+}
